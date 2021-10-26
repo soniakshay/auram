@@ -1,0 +1,85 @@
+.FloorPlanSectionMain {
+
+}
+.FloorPlanSectionMain .btnList button {
+    color: #6f6d6d !important;
+    font-size: 12px;
+    /*border: 1px solid #172243;*/
+    border: none;
+    /*background: #172243 !important;*/
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    background: transparent;
+}
+
+.FloorPlanSectionMain .btnList button:hover {
+
+    background: #172243 !important;
+    color: white !important;
+
+}
+
+
+.FloorPlanSectionMain .btnList button.active {
+
+    background: #172243 !important;
+    color: white !important;
+
+}
+.FloorPlanSectionMain .flordesc  strong {
+    color: #3f4448;
+    display: block;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 10px 0px;
+}
+.FloorPlanSectionMain .flordesc .listDiv img  {
+    height: 40px;
+    width: 40px;
+}
+.FloorPlanSectionMain .flordesc .listDiv strong  {
+    margin-left: 10px;
+    color: #3f4448;
+    font-weight: 500;
+    font-size: 18px;
+}
+.FloorPlanSectionMain .flordesc .listDiv {
+    display: flex;
+}
+.FloorPlanSectionMain .flordesc ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.FloorPlanSectionMain .flordesc ul li {
+   margin-top: 20px;
+}
+
+.FloorPlanSectionMain .imageContainer img {
+    width: 100%;
+    height: 500px ;
+}
+.FloorPlanSectionMain .floorplaintitle {
+        font-family: 'Fahkwang', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: none;
+    color: #d1a733;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .FloorPlanSectionMain .imageContainer img {
+        width: 100%;
+        height: 200px ;
+        margin-top: 20px;
+    }
+}
+

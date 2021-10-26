@@ -1,0 +1,64 @@
+.pointIntrestMain {
+
+}
+
+.pointIntrestMain  .pointIntrestList .index span{
+        font-family: 'Fahkwang', sans-serif;
+    font-weight: 500;
+    /*font-size: 70px;*/
+    text-transform: none;
+
+    display: block;
+    width: 100%;
+    font-size: 100px;
+    color: #075295;
+    margin-top:-30px;
+
+
+}
+
+
+
+.pointIntrestMain .pointInfoTitle {
+        font-family: 'Fahkwang', sans-serif;
+    font-weight: 400;
+    font-size:30px;
+    text-transform: none;
+    color: #d1a733;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.pointIntrestMain .pointInfoDesc {
+        font-family: 'Fahkwang', sans-serif;
+    font-size: 15px;
+    color: #6f6d6d;
+
+}
+.pointIntrestMain .pointInfoImage img {
+   width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.pointIntrestMain  .pointIntrestList .desc
+{
+        font-family: 'Fahkwang', sans-serif;
+    font-size: 15px;
+    color: #6f6d6d;
+    margin: 20px 0px;
+
+}
+.pointIntrestMain  .pointIntrestList .desctitle {
+        font-family: 'Fahkwang', sans-serif;
+    font-size: 20px;
+    color: #6f6d6d;
+    font-weight: 400;
+    text-transform: none;
+    display: block;
+    margin-bottom: 10px;
+
+}
+.pointIntrestMain  .pointIntrestList  .pointIntrestListInfo {
+    margin-top: 30px;
+}

@@ -1,0 +1,28 @@
+.privacyPlicyMain {
+
+}
+.privacyPlicyMain  h1 {
+    font-family: 'Fahkwang', sans-serif;
+    font-weight: 500;
+}
+.privacyPlicyMain  .privacyPlicyinner {
+    padding: 20px 30px;
+}
+.privacyPlicyMain p {
+    color: black;
+    font-family: 'semplicitaproregular', sans-serif;
+    font-weight: 100;
+}
+.privacyPlicyMain p b {
+    font-weight: 700;
+}
+.privacyPlicyMain p strong {
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .privacyPlicyMain  .privacyPlicyinner {
+        padding: 20px 10px;
+    }
+}

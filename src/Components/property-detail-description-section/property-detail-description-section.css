@@ -1,0 +1,81 @@
+.PropertyDetailDescriptionSectionMain {
+    padding: 50px 0px;
+}
+
+.PropertyDetailDescriptionSectionMain .PropertyDetailDescriptionSectionInnerMain .left {
+    padding: 20px;
+}
+
+.PropertyDetailDescriptionSectionMain .PropertyDetailDescriptionSectionInnerMain .left  h1{
+        font-family: 'Fahkwang', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    text-transform: none;
+    color: #d1a733;
+    display: block;
+    width: 100%;
+    margin:20px 0px;
+}
+.PropertyDetailDescriptionSectionMain .PropertyDetailDescriptionSectionInnerMain .left  p{
+        font-family: 'Fahkwang', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #6f6d6d;
+    margin:20px 0px;
+    line-height: 30px;
+}
+.PropertyDetailDescriptionSectionMain .PropertyDetailDescriptionSectionInnerMain .left img{
+    width: 80%;
+}
+.PropertyDetailDescriptionSectionMain .PropertyDetailDescriptionSectionInnerMain .right img{
+    width: 100%;
+}
+
+.PropertyDetailDescriptionSectionMain .PropertyDetailDescriptionSectionInnerMain .right .buttonsMainDiv{
+   display: flex;
+}
+/*.PropertyDetailDescriptionSectionMain .PropertyDetailDescriptionSectionInnerMain .right .buttonsMainDiv .active{*/
+/*    font-family: 'semplicitaproregular', sans-serif;*/
+/*    color: white;*/
+/*    font-size: 12px;*/
+/*    background-color: #172243;*/
+/*    letter-spacing: 1px;*/
+/*    padding: 14px 30px;*/
+/*    margin-top: 20px;*/
+/*    margin-bottom: 20px;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+.PropertyDetailDescriptionSectionMain .PropertyDetailDescriptionSectionInnerMain .left .buttonsMainDiv .btn{
+    font-family: 'semplicitaproregular', sans-serif;
+    color: #172243;
+    font-size: 12px;
+    border:1px solid #172243;
+    background: transparent;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.PropertyDetailDescriptionSectionMain .PropertyDetailDescriptionSectionInnerMain .left .buttonsMainDiv .active{
+    font-family: 'semplicitaproregular', sans-serif;
+    color: white !important;
+    font-size: 12px;
+    border:1px solid #172243;
+    background:  #172243 !important;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+}
+

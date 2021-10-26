@@ -1,0 +1,88 @@
+.SearchProperyMain {
+margin-top: 200px;
+}
+.SearchProperyMain .ptype span {
+    display: block;
+    border-left: 1px solid #00000029;
+    padding: 0px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.SearchProperyMain .ptype .ptypetitle {
+    font-weight: 600;
+    font-size: 18px;
+        /*font-family: 'Fahkwang', sans-serif;*/
+    letter-spacing: 1px;
+}
+.SearchProperyMain .ptype .ptypedesc {
+    font-weight: 400;
+    font-size: 18px;
+        font-family: 'Fahkwang', sans-serif;
+    letter-spacing: 1px;
+}
+#ptypeList , #companyList {
+    padding:10px 20px;
+    display: none;
+}
+#ptypeList .form-check , #companyList .form-check {
+    margin-top: 10px;
+}
+#ptypeList  label, #companyList label {
+    /* color: #000; */
+    display: block;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    font-size: .75rem;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+#companyList span {
+    margin-left: 12px;
+    display: flex;
+
+}
+#companyList i {
+    margin-top: 10px;
+}
+
+#companyList span.darktext {
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    font-size: .75rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+
+}
+#companyList span.lightext {
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    font-size: .75rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color:#9ea0a6;
+
+}
+#companyList span.li {
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    font-size: .75rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+
+}
+.SearchProperyMain  .btn{
+    font-family: 'semplicitaproregular', sans-serif;
+    color: white;
+    font-size: 12px;
+    background-color: #172243;
+    letter-spacing: 1px;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .SearchProperyMain .section {
+        margin-top: 30px;
+    }
+}

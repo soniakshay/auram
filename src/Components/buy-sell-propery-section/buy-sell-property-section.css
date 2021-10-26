@@ -1,0 +1,65 @@
+.BuySellProductMain {
+    margin-top: 100px;
+}
+
+.BuySellProductMain .buysellDesc {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.BuySellProductMain h1 {
+    font-family: 'Fahkwang', sans-serif !important;
+    font-weight: 700;
+    font-size: 27px;
+    text-transform: none;
+    color: #d1a733;
+    display: block;
+    width: 100%;
+
+}
+
+.BuySellProductMain img {
+   height: 67px;
+    margin-bottom: 10px;
+}
+
+.BuySellProductMain  .desc {
+    color: #6f6d6d;
+    font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Fahkwang', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.BuySellProductMain  .desctitle {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Fahkwang', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.BuySellProductMain .box {
+    border: 1px solid #9e9e9e5c;
+    border-radius: 5px;
+   padding: 40px 20px;
+    text-align: center;
+}
+.BuySellProductMain .boxTitle {
+    font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Fahkwang', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: none;
+    color: #d1a733;
+    display: block;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .BuySellProductMain .box {
+      margin-top: 10px;
+    }
+}

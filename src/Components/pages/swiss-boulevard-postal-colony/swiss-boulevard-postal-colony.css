@@ -1,0 +1,14 @@
+.SwissBoulevardPostalColonyMain {
+height: 100%;
+}
+.SwissBoulevardPostalColonyMainInner {
+    height: 100%;
+}
+
+.SwissBoulevardPostalColonyMainInner .banner {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+
+}

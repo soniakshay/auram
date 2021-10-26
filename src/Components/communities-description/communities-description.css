@@ -1,0 +1,132 @@
+.CommunitiesDescriptionMain {
+    margin: 100px 0px;
+}
+.CommunitiesDescriptionMain .full img {
+    width: 100%;
+    border-radius: 10px;
+}
+.CommunitiesDescriptionMain .left .imageBlock img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.CommunitiesDescriptionMain .right .imageBlock img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.CommunitiesDescriptionMain .left .descriptionBlock  {
+    height: 100%;
+
+}
+.CommunitiesDescriptionMain .right .descriptionBlock  {
+    height: 100%;
+
+}
+.CommunitiesDescriptionMain .left .descriptionBlock p {
+        font-family: 'Fahkwang', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #6f6d6d;
+
+}
+.CommunitiesDescriptionMain .right .descriptionBlock p {
+        font-family: 'Fahkwang', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #6f6d6d;
+
+}
+
+.CommunitiesDescriptionMain .left .descriptionBlock  .descriptionblockinner {
+    border-radius: 19px;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+    max-width: 600px;
+    z-index: 900;
+    margin-left: -100px;
+}
+
+.CommunitiesDescriptionMain .right .descriptionBlock  .descriptionblockinner {
+    border-radius: 19px;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+    max-width: 600px;
+    z-index: 999;
+    position: absolute;
+}
+.CommunitiesDescriptionMain  .left .descriptionBlock  .descriptionblockinner  .title {
+        font-family: 'Fahkwang', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    text-transform: none;
+    color: #d1a733;
+    display: block;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.CommunitiesDescriptionMain  .full .descriptionBlock .title {
+        font-family: 'Fahkwang', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    text-transform: none;
+    color: #d1a733;
+    display: block;
+    width: 100%;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.CommunitiesDescriptionMain .full .descriptionBlock p {
+        font-family: 'Fahkwang', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #6f6d6d;
+    text-align: center;
+
+}
+
+.CommunitiesDescriptionMain  .right .descriptionBlock  .descriptionblockinner  .title {
+        font-family: 'Fahkwang', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    text-transform: none;
+    color: #d1a733;
+    display: block;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .CommunitiesDescriptionMain .left .descriptionBlock  .descriptionblockinner {
+        border-radius: 19px;
+        background-color: #fff;
+        margin-top: 10px;
+        padding: 30px 40px;
+        box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+        max-width: 600px;
+        z-index: 900;
+        margin-left: 0px;
+    }
+
+    .CommunitiesDescriptionMain .right .descriptionBlock  .descriptionblockinner {
+        border-radius: 19px;
+        background-color: #fff;
+        margin-top: 10px;
+        padding: 30px 40px;
+        box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+        max-width: 600px;
+        z-index: 900;
+        margin-left: 0px;
+        position: relative;
+    }
+}

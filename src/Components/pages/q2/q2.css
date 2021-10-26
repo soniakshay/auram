@@ -1,0 +1,191 @@
+.blink a {
+    color: #075295;
+    margin: 0px 10px;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.blink p {
+    color: #075295 !important;
+    margin-top: 20px;
+}
+.blink {
+    margin-top: 50px;
+}
+.Q5Main .title {
+    font-family: 'Fahkwang', sans-serif;
+    text-transform: none;
+    color: #d1a733;
+    font-weight: 500 !important;
+    font-size: 35px !important;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+}
+
+.Q5Main video {
+    width: 100%;
+}
+.Q5Main .descriptionDiv p.desctitle{
+    font-weight: bold !important;
+}
+.Q5Main .descriptionDiv p{
+    color: #232323 !important;
+    font-size: 14px;
+}
+.Q5Main .gallary .bottomImage {
+    margin-top: 15px;
+}
+.Q5Main .gallary .bottomTopImage{
+
+}
+.Q5Main .descriptionDiv {
+    margin:20px 0px;
+}
+.Q5Main .Amenitiestitle {
+    text-align: center;
+}
+.Q5Main .Amenities {
+    text-align: center;
+    margin-top: 30px;
+}
+.AmenitiesMain {
+    display: flex;
+    justify-content: center;
+}
+.Q5Main .Amenities span {
+    display: block;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: black;
+    font-family: 'semplicitaproregular', sans-serif;
+    margin-top: 20px;
+
+}
+.Q5Main .availableSpace {
+    border: 1px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Q5Main .availableSpace  .tfloorLayoutIconManDiv {
+    margin-top: 20px;
+}
+.Q5Main .availableSpace  .tfloorLayouticontitle  {
+    display: block;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: black;
+    font-family: 'semplicitaproregular', sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.Q5Main .availableSpace  .tfloorLayoutIconManDiv img {
+    height: 35px;
+}
+.Q5Main .typicalFloorinfo ul li {
+    list-style: none;
+    margin-top: 30px;
+    ont-family: 'semplicitaproregular', sans-serif;
+    color: #232323;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.viewFloorPlanBtn {
+    background: #075295;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.viewFloorPlanBtn:hover {
+   color: white !important;
+    background: #075295 !important;
+}
+.Q5Main .typicalFloorinfo ul li i{
+    color: #075295;
+    font-size: 18px;
+}
+.Q5Main  .availableSpace .title1 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 0.8em;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #b1aaaa;
+    display: block;
+    padding: 10px 0px;
+
+}
+.Q5Main .Amenities span.Amenitiestitle {
+    font-weight: bold;
+}
+.Q5Main .nearbytitle {
+        margin-top: 30px;
+}
+.Q5Main .Amenities img {
+    height: 60px;
+
+}
+.Q5Main .featuresListMain {
+    margin: 30px 0px;
+}
+.Q5Main .features {
+    text-align: center;
+}
+.Q5Main .features img {
+    height: 50px;
+}
+.Q5Main .features h1 {
+    font-size: 25px;
+    text-transform: none;
+    /*font-family: 'Fahkwang', sans-serif;*/
+    margin: 0 0 .5em;
+    padding: 0;
+    color: #075295;
+    font-weight: 600;
+}
+.Q5Main .features span {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: black;
+    font-family: 'semplicitaproregular', sans-serif;
+    font-weight: 800;
+}
+.otherSites .othersiteboxmain{
+        height: 300px;
+        padding: 10px;
+}
+.otherSites .othersiteboxinner {
+    height: 100%;
+    border: 1px solid rgb(240,240,240);
+    border-radius: 10px;
+}
+.otherSites .othersiteboxinner img {
+    border-radius: 10px;
+}
+.otherSites .othersiteboxinner .othersiteboxinfo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.otherSites .othersiteboxinner .othersiteboxinfo h4{
+    width: 75%;
+    padding: 20px 10px;
+}
+.otherSites .othersiteboxinner .othersiteboxinfo .btn
+{
+    background: #075295;
+    color: white;
+    font-size: 18px;
+
+}
+@media only screen and (max-width: 600px) {
+    .Q5Main .gallary .bottomImage {
+        margin-top: 10px;
+    }
+    .Q5Main .marginTop {
+        margin-top: 10px;
+    }
+
+}

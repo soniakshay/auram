@@ -1,0 +1,99 @@
+.FooterMain {
+    background: #172243;
+    padding: 50px 0px;
+}
+.FooterMain ul li {
+    list-style: none;
+}
+.FooterMain  h2 {
+        font-family: 'Fahkwang', sans-serif;
+    text-transform: none;
+    color: #d1a733;
+    font-weight: 400 !important;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+
+}
+.FooterMain  h4 {
+        font-family: 'Fahkwang', sans-serif;
+    text-transform: none;
+    color: #d1a733;
+    font-weight: 400 !important;
+    font-size: 18px;
+    display: block;
+
+}
+.FooterMain .addre {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    latter-spacing:1px;
+}
+
+.FooterMain ul li {
+    margin-top: 10px;
+}
+.FooterMain ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    latter-spacing:1px;
+}
+.FooterMain .menuItems {
+    display: flex;
+    margin-top: 50px;
+}
+.FooterMain .copyrighttSpanMain {
+    color: white;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.FooterMain .copyrighttSpanMain .yellow {
+    text-decoration: none;
+    color: #d1a733;
+}
+.FooterMain .mediaIcon ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+.FooterMain .mediaIcon ul  {
+   text-align: center;
+    margin-top: 20px;
+}
+.FooterMain .mediaIcon ul li button {
+    background: transparent;
+    border:none;
+    padding: 15px;
+
+}
+.FooterMain .mediaIcon ul li button:hover
+{
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 50%;
+
+}
+.FooterMain .mediaIcon ul li button  img{
+    height: 30px;
+}
+@media only screen and (max-width: 600px) {
+    .FooterMain .menuItems {
+        display: block;
+        margin-top: 50px;
+    }
+    .FooterMain .menuItem {
+        margin-top: 50px;
+    }
+    .FooterMain .menuItem {
+        display: flex !important;
+    }
+    .FooterMain h2{
+
+        font-size: 26px;
+
+    }
+}
+

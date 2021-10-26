@@ -1,0 +1,102 @@
+.PropertDetailMain .accordion .accordion-header span{
+    display: block;
+    width: 100%;
+
+}
+.PropertDetailMain .PropertDetailMainInner {
+    margin-top:30px;
+}
+.PropertDetailMain .accordion .accordion-header button {
+    display: block;
+    padding: 20px;
+}
+.PropertDetailMain .accordion .accordion-header .title {
+    font-weight: 100;
+    font-size: 14px;
+        /*font-family: 'Fahkwang', sans-serif;*/
+    letter-spacing: 1px;
+    color: black;
+    text-transform: uppercase;
+}
+.PropertDetailMain .accordion .accordion-header .desc {
+    font-weight: 500;
+    font-size: 18px;
+        /*font-family: 'Fahkwang', sans-serif;*/
+    letter-spacing: 1px;
+    color: black;
+    margin-top: 10px;
+}
+.PropertDetailMain .removeSpaces {
+    padding: 0px;
+
+}
+.PropertDetailMain .accordion .accordion-item {
+
+    border:none;
+    border-bottom: 1px solid #0000002b;
+}
+
+#Community span {
+    margin-left: 12px;
+    display: flex;
+
+}
+#Community i {
+    margin-top: 10px;
+}
+#Community span.darktext {
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    font-size: .75rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+
+}
+#Community span.lightext {
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    font-size: .75rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color:#9ea0a6;
+
+}
+.PropertDetailMain .inputField {
+    width: 100%;
+    font-size: 14px;
+    display: block;
+    padding: .57rem 1.4rem;
+    border:none;
+    border-bottom: 1px solid #0000002b;
+}
+
+.PropertDetailMain .btns {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.PropertDetailMain .btns  .btn{
+    font-family: 'semplicitaproregular', sans-serif;
+    color: white;
+    font-size: 12px;
+    background-color: #172243;
+    letter-spacing: 1px;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+.PropertDetailMain .clearAllBtn {
+    width: 100%;
+    text-align: center;
+}
+.PropertDetailMain .clearAllBtn a {
+    font-weight: 200;
+    font-size: 15px;
+        font-family: 'Fahkwang', sans-serif;
+    letter-spacing: 1px;
+    color: black;
+    text-decoration: none;
+}
+.PropertDetailMain .PropertDetailMainInner {
+    margin-bottom: 50px;
+}

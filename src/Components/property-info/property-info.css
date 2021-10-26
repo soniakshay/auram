@@ -1,0 +1,53 @@
+.PropertInfo h4 {
+    font-size: 15px;
+    text-transform: none;
+}
+.PropertInfo {
+    margin-top: 50px;
+}
+.PropertInfo i {
+    margin-right: 10px;
+}
+
+.PropertInfo .left img {
+    width: 100%;
+}
+.PropertInfo .left video {
+    width: 100%;
+}
+
+.PropertInfo table {
+    width: 100%;
+}
+.PropertInfo table td{
+    width: 50%;
+}
+.PropertInfo .btn {
+    background-color: rgb(7 28 53 / 0%);
+    color: #172243;
+    border: 1px solid rgb(7 28 53);
+    font-weight: 400;
+    padding: 10px 20px;
+
+
+}
+.PropertInfo .marginLeft{
+    margin-left: 10px;
+}
+.PropertInfo .btn:hover {
+    color: #d1a733;;
+
+}
+.PropertInfo .row {
+    margin-top: 10px;
+}
+
+.PropertInfo .title a {
+    text-transform: none;
+    color: #d1a733;
+    font-weight: 400 !important;
+    font-size: 28px;
+    display: block;
+    text-decoration: none;
+
+}

@@ -1,0 +1,19 @@
+.App {
+    height: 100%;
+}
+
+
+.row {
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 1px;
+    }
+}

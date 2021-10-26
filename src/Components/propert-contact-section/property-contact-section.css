@@ -1,0 +1,91 @@
+.PropertyContactSectionMain {
+    margin: 80px 0px;
+}
+.PropertyContactSectionMain .formsection {
+    border: 1px solid #172243;
+    padding: 20px;
+    border-radius: 10px;
+}
+.PropertyContactSectionMain .formsection span {
+        font-family: 'Fahkwang', sans-serif;
+    text-transform: none;
+    color: #172243;
+    font-weight: 400 !important;
+    font-size: 20px;
+    display: block;
+
+}
+
+.PropertyContactSectionMain .formsection .inputfield {
+    border: 1px solid #172243;
+    width:100%;
+    color: #9ea0a6;
+    font-size: 14px;
+    padding: .57rem 1.4rem;
+    background-color: transparent;
+    border-radius: 0;
+    margin-top: 20px;
+}
+.PropertyContactSectionMain .formsection .btn {
+    font-family: 'semplicitaproregular', sans-serif;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #172243;
+    letter-spacing: 1px;
+    padding: 15px 30px;
+    margin-top: 20px;
+    width: 100%;
+
+}
+.PropertyContactSectionMain .contactInfo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 20px;
+}
+
+.PropertyContactSectionMain .contactInfo span.title {
+        font-family: 'Fahkwang', sans-serif;
+    text-transform: none;
+    color: #d1a733;
+    font-weight: 700 !important;
+    font-size: 35px !important;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    width: 100%;
+
+
+}
+
+.PropertyContactSectionMain .contactInfo span.subtitle {
+        font-family: 'Fahkwang', sans-serif;
+    text-transform: none;
+    color: #3f4448 !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+}
+
+.PropertyContactSectionMain .contactInfo .contactInfoDesc i{
+    margin-right: 10px;
+}
+.PropertyContactSectionMain .contactInfo .contactInfoDesc {
+    margin-top: 10px;
+}
+
+.PropertyContactSectionMain .contactInfo .contactInfoDesc a{
+    color: #3f4448;
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+    .PropertyContactSectionMain .formsection {
+        margin: 50px 0px;
+    }
+}
+
+

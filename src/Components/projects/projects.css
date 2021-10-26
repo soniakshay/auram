@@ -1,0 +1,50 @@
+.ProjectsMain {
+    background: white;
+    width: 100%;
+    margin-top: 100px;
+}
+.ProjectsMain .section {
+    text-align: center;
+
+}
+
+.ProjectsMain .section img {
+    width: 100%;
+}
+.ProjectsMain .section  .descDiv {
+    width: 80%;
+    margin-left: 10%;
+    height: 140px;
+    margin-top: 20px;
+
+}
+
+.ProjectsMain .section .btn {
+    font-family: 'semplicitaproregular', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 15px;
+    background-color: #172243;
+    letter-spacing: 1px;
+    padding: 14px 30px;
+    text-transform: uppercase;
+}
+.ProjectsMain .section h2 {
+    font-family: 'Fahkwang', sans-serif;
+    font-weight: 600;
+    text-transform: none;
+    color: #d1a733;
+    display: block;
+    width: 100%;
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+        .rightSidelastLunnch .section {
+            margin-top: 10px;
+        }
+
+}
+

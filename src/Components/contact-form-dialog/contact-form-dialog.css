@@ -1,0 +1,64 @@
+.ContactFormDialog {
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 999999;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContactFormDialog .formdiv{
+    background: white;
+    box-shadow: 0 15px 40px #e3e3e3;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.ContactFormDialog .formdiv .title{
+    color: #172243;
+        font-family: 'Fahkwang', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.ContactFormDialog .formWrapper {
+    padding: 0px 50px;
+}
+.ContactFormDialog .formdiv  .inputField {
+    border: 1px solid #172243;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    padding: .57rem 1.4rem;
+    background-color: transparent;
+    border-radius: 0;
+    margin: 10px 0px;
+}
+.ContactFormDialog .formdiv .btn {
+    font-family: 'semplicitaproregular', sans-serif;
+    color: white;
+    font-size: 12px;
+    background-color: #172243;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.ContactFormDialog .formdiv .cancelBtn {
+    background: transparent;
+    color: black;
+    border:none;
+    font-size: 20px;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .ContactFormDialog .formWrapper {
+        padding: 0px;
+    }
+}

@@ -1,0 +1,69 @@
+.AmenitiesAndFeaturesSectionMain {
+    margin: 100px 0px;
+}
+
+.AmenitiesAndFeaturesSectionMain .Amenities img {
+    height: 90px;
+
+}
+.AmenitiesAndFeaturesSectionMain .Amenities span {
+    display: block;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: black;
+    font-family: 'semplicitaproregular', sans-serif;
+    margin-top: 20px;
+
+}
+.AmenitiesAndFeaturesSectionMain .title {
+        font-family: 'Fahkwang', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: none;
+    color: #d1a733;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px;
+}
+.AmenitiesAndFeaturesSectionMain .Amenities {
+    text-align: center;
+    margin: 20px 0px;
+}
+.AmenitiesAndFeaturesSectionMain .Amenities span.title {
+    font-weight: bold;
+}
+.AmenitiesAndFeaturesSectionMain .features {
+    text-align: center;
+    margin: 20px 0px;
+}
+.AmenitiesAndFeaturesSectionMain .featuresListMain {
+    margin-top: 50px;
+}
+.AmenitiesAndFeaturesSectionMain .AmenitiesMain {
+    margin-top: 50px;
+}
+.AmenitiesAndFeaturesSectionMain .features img {
+    height: 90px;
+
+}
+.AmenitiesAndFeaturesSectionMain .features span {
+   display: block;
+
+}
+.AmenitiesAndFeaturesSectionMain .features h1 {
+    font-size: 25px;
+    text-transform: none;
+        /*font-family: 'Fahkwang', sans-serif;*/
+    margin: 0 0 .5em;
+    padding: 0;
+    color: #075295;
+    font-weight: 600;
+}
+.AmenitiesAndFeaturesSectionMain .features span {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: black;
+    font-family: 'semplicitaproregular', sans-serif;
+    font-weight: 800;
+}

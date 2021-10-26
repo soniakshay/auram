@@ -1,0 +1,46 @@
+.VideoPresntationSectionMain {
+
+}
+.VideoPresntationSectionMain .iframe iframe {
+    width: 100%;
+}
+
+.VideoPresntationSectionMain .iframe video {
+    width: 100%;
+}
+.VideoPresntationSectionMain .iframe  {
+    padding: 0px 10px;
+}
+.VideoPresntationSectionMain .VideoPresntationSectionMainInner {
+    background: #172243;
+    padding: 20px;
+    margin: 10px;
+}
+.VideoPresntationSectionMain .VideoPresntationSectionMainInner .videotitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.VideoPresntationSectionMain .VideoPresntationSectionMainInner .videotitle h1 {
+        font-family: 'Fahkwang', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    text-transform: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.VideoPresntationSectionMain .VideoPresntationSectionMainInner .videotitle h1.yellow {
+    color: #d1a733;
+}
+.VideoPresntationSectionMain .VideoPresntationSectionMainInner .videotitle h1.white {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .VideoPresntationSectionMain .VideoPresntationSectionMainInner .videotitle {
+        padding: 50px 0px;
+    }
+}

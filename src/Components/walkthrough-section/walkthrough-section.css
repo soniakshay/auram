@@ -1,0 +1,66 @@
+.WalkThroughSectionMain{
+    margin: 50px 0px;
+}
+
+.WalkThroughSectionMain .WalkThroughSectiondesc  h1{
+    font-family: 'Fahkwang', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: none;
+    color: #d1a733;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.WalkThroughSectionMain .WalkThroughSectiondesc  p {
+        font-family: 'Fahkwang', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #6f6d6d;
+    margin: 20px 0px;
+    line-height: 30px;
+
+}
+
+.WalkThroughSectionMain .WalkThroughSectiondesc  p {
+        font-family: 'Fahkwang', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #6f6d6d;
+    margin: 20px 0px;
+    line-height: 30px;
+
+}
+.WalkThroughSectionMain .WalkThroughSectionimage img {
+    width: 100% ;
+}
+.WalkThroughSectionMain .WalkThroughSectionimage button.active {
+    background: #172243 !important;
+    color: white !important;
+    font-size: 12px;
+    /* border: 1px solid #172243; */
+    border: none;
+    /* background: #172243 !important; */
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+}
+.WalkThroughSectionMain .WalkThroughSectionimage button.butn {
+    color: #6f6d6d !important;
+    background: white;
+    margin-left: 10px;
+    font-size: 12px;
+    /* border: 1px solid #172243; */
+    border: none;
+    /* background: #172243 !important; */
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,41 @@
+.subFooterMain {
+    background: #07529566;
+    padding: 100px 0px;
+    margin-top: 100px;
+}
+
+.subFooterMain .title {
+    text-align: center;
+}
+.subFooterMain .title h2{
+   color:white;
+        font-family: 'Fahkwang', sans-serif;
+    text-transform: none !important;
+    font-size: 70px;
+    font-weight: 400 !important;
+}
+
+.subFooterMain .title span {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+        font-family: 'Fahkwang', sans-serif;
+    margin-top: 30px;
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .subFooterMain .row {
+        padding: 0px;
+        margin:0px;
+    }
+    .subFooterMain .title h2{
+
+        font-size: 26px;
+
+    }
+    .subFooterMain .title span {
+        font-size: 15px;
+
+    }
+}
