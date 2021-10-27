@@ -31,7 +31,7 @@ function FloorPlanSection(props) {
             <Container fluid>
                 <Row>
                     <Col lg={12} md={12} sm={12} xs={12}>
-                        <h1 className={'floorplaintitle'}>FloorPlan</h1>
+                        <h1 className={'floorplaintitle'}>Floor Plan</h1>
                     </Col>
 
                 </Row>

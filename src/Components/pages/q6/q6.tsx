@@ -38,11 +38,26 @@ import grid1image1 from '../../../assets/images/inner-grid-q2.jpg';
 import grid1image2 from '../../../assets/images/inner-grid-q5.jpg';
 import grid1image3 from '../../../assets/images/inner-grid-q6.jpg';
 import commingSoonImage from '../../../assets/images/commingsoon-q6.jpg';
+import ContactFormDialog from "../../contact-form-dialog/contact-form-dialog";
 
 function Q6(props) {
     const history =  useHistory()
+    const [open,setOpen]=useState(false);
     const redirectLink = (link) => {
         history.push(link)
+    }
+
+    const redirectFloorPlan = (link) => {
+        const regitrationFlag = localStorage.getItem('registration');
+        if(regitrationFlag) {
+            history.push(link)
+        } else {
+            setOpen(true);
+        }
+    }
+    const onsubmit = () => {
+        localStorage.setItem('registration',true);
+        window.location.reload();
     }
     // const [amenitiesList,setamenitiesList]= useState([
     //     {
@@ -105,7 +120,9 @@ function Q6(props) {
     //     },
     // ])
     return (
-        <div className='Q5Main'>
+        <>
+            {open && <ContactFormDialog closeDialog={setOpen} onsubmitevent={onsubmit}/>}
+            <div className='Q5Main'>
             <Header/>
             <div className='Q5MainInner'>
                 <Container>
@@ -267,7 +284,7 @@ function Q6(props) {
                                             <li><i className={'fa fa-check-circle iconsize'}></i> 24 X 7 Security Surveillance</li>
                                             <li><i className={'fa fa-check-circle iconsize'}></i> 100% DG Back up for common area & lifts</li>
                                         </ul>
-                                        <Button className={'btn viewFloorPlanBtn'}  onClick={()=>{ history.push('/detail/q6-floor-plan') }}>View Floor Plan</Button>
+                                        <Button className={'btn viewFloorPlanBtn'}  onClick={()=>{ redirectFloorPlan('/detail/q6-floor-plan') }}>View Floor Plan</Button>
                                     </div>
                                 </Col>
                             </Row>
@@ -331,6 +348,7 @@ function Q6(props) {
             </div>
             <Footer/>
         </div>
+        </>
     )
 }
 

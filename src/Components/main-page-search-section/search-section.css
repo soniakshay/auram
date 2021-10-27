@@ -58,7 +58,17 @@
 .tabLinkActive {
     background-color: rgb(23, 34, 67) !important;
 }
-
+.inputFieldMain i {
+    position: relative;
+    right: 0;
+    top: 43px;
+    z-index: 99;
+    left: 95%;
+    font-size: 18px;
+}
+.inputFieldMain .inputField {
+    position: relative;
+}
 @media only screen and (max-width: 600px) {
     .main {
         height: 100%;

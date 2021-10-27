@@ -68,7 +68,11 @@ function SearchSection() {
                             <Col lg={1} md={0} xs={0}></Col>
                             <Col lg={10} md={12} xs={12}>
                                 <form onSubmit={onsubmit}>
-                                  <input type='text' placeholder={inputPlaceHolder} className='inputField' />
+                                    <div className={'inputFieldMain'}>
+                                        <i className={'fa fa-search fa-2x'}/>
+                                        <input type='text' placeholder={inputPlaceHolder} className='inputField' />
+
+                                    </div>
                                 </form>
                             </Col>
                             <Col lg={1} md={0} xs={0}></Col>

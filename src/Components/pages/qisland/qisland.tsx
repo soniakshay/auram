@@ -303,10 +303,10 @@ function Qisland(props) {
             <VideoPresntationSection videoprasentationdata={videoprasentationdata}/>
             <AmenitiesAndFeaturesSection amenitiesFeatures={amenitiesFeaturesData}/>
             <FloorPlanSection florPlanList={florPlanList}/>
-            <Gallary imagelist={imageList2}/>
             <PropertyContactSection/>
-            <Gallary imagelist={imageList}/>
+            <Gallary imagelist={imageList2}/>
             <WalkThroughSection walkthroughInfo={walkthroughInfo}/>
+            <Gallary imagelist={imageList}/>
 
             <Footer/>
         </div>

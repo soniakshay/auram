@@ -8,7 +8,7 @@ import {
     Route,
     Link
 } from "react-router-dom";
-import Home from "./Components/Home/Home";
+import Home from "./Components/pages/Home/Home";
 import SearchPropertyDetail from "./Components/search-property-detail/search-property-detail";
 import SwissBoulevardPostalColony from "./Components/pages/swiss-boulevard-postal-colony/swiss-boulevard-postal-colony";
 import Paramount from "./Components/pages/paramount/paramount";

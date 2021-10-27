@@ -41,6 +41,12 @@
 .PropertInfo .row {
     margin-top: 10px;
 }
+.PropertInfo .titledesc {
+    letter-spacing: 1px;
+}
+.PropertInfo .latterSpace{
+    letter-spacing: 1px;
+}
 
 .PropertInfo .title a {
     text-transform: none;

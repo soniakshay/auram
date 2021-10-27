@@ -136,27 +136,28 @@ function Paramount(props) {
     ])
     const [walkthroughInfo,setwalkthroughInfo] = useState({
         desc:`Paramount brings to you the finest living experience in smartly design 1 & 2 BHK apartments developed with essential amenities and strategically placed at the core of the town and ensured simplified living. At paramount walk into a property that emanates class amenities like fully air-conditioned gymnasium, indoor games arena, landscape and sculptured garden, children's play area with separate toddler's zone, jogging and reflexology track, gazebo with a seating area and many others.`,
-        videoWalkhthrough: false,
+        videoWalkhthrough: true,
         images:[
             {
                 imageLink:walkThroughImage,
-                btnText:'OverAll'
-            },
-        ],
-        iframeLinks:[
-            {
-                iframeLink:'https://app.lapentor.com/sphere/1-bhk',
-                btnText:'1 BHK'
-            },
-            {
-                iframeLink:'https://app.lapentor.com/sphere/2-bhk',
-                btnText:'2 BHK'
-            },
-            {
-                iframeLink:'https://app.lapentor.com/sphere/35-bhk',
-                btnText:'3.5 BHK'
+                btnText:'OverAll',
+                videoLink: 'https://www.youtube.com/embed/shKTQFpUIoM',
             },
         ]
+        // iframeLinks:[
+        //     {
+        //         iframeLink:'https://app.lapentor.com/sphere/1-bhk',
+        //         btnText:'1 BHK'
+        //     },
+        //     {
+        //         iframeLink:'https://app.lapentor.com/sphere/2-bhk',
+        //         btnText:'2 BHK'
+        //     },
+        //     {
+        //         iframeLink:'https://app.lapentor.com/sphere/35-bhk',
+        //         btnText:'3.5 BHK'
+        //     },
+        // ]
     })
 
     const [videoprasentationdata,setvideoprasentationdata] =  useState({

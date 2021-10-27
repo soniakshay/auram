@@ -61,7 +61,7 @@ function PropertyInfo(props) {
                             <Col lg={6} md={6} sm={12} xs={12}>
                                 <Row>
                                     <Col lg={12} md={12} sm={12}>
-                                        <h4><i className="fa fa-map-marker"></i>{titleDesc}</h4>
+                                        <h4 className={'titledesc'}><i className="fa fa-map-marker"></i>{titleDesc}</h4>
                                         <h1 className={'title'}><a href='javascript:void(0)' onClick={()=>{redirectDetail(SeeMoreLink)}}>{title}</a></h1>
 
                                     </Col>
@@ -72,7 +72,7 @@ function PropertyInfo(props) {
                                 {Beds &&
 
                                 <Row>
-                                    <Col lg={4} md={2} sm={6} xs={6}>
+                                    <Col lg={4} md={2} sm={6} xs={6} className={'latterSpace'}>
                                         <i className="fa fa-bed "></i> Beds
                                     </Col>
                                     <Col lg={8} md={2}  sm={6} xs={6}>
@@ -84,10 +84,10 @@ function PropertyInfo(props) {
                                 {
                                     Tower &&
                                     <Row>
-                                        <Col lg={4} md={4}  sm={6} xs={6}>
+                                        <Col lg={4} md={4}  sm={6} xs={6} className={'latterSpace'}>
                                             <i className="fa fa-home"></i> Tower
                                         </Col>
-                                        <Col lg={8} md={8}  sm={6} xs={6}>
+                                        <Col lg={8} md={8}  sm={6} xs={6} className={'latterSpace'}>
                                             {Tower}
                                         </Col>
                                     </Row>
@@ -96,10 +96,10 @@ function PropertyInfo(props) {
                                 {
                                     Area &&
                                     <Row>
-                                        <Col lg={4} md={4}  sm={6} xs={6}>
+                                        <Col lg={4} md={4}  sm={6} xs={6} className={'latterSpace'}>
                                             <i className="fa fa-area-chart"></i>  Area
                                         </Col>
-                                        <Col lg={8} md={8}  sm={6} xs={6}>
+                                        <Col lg={8} md={8}  sm={6} xs={6} className={'latterSpace'}>
                                             {Area}
                                         </Col>
                                     </Row>
@@ -107,10 +107,10 @@ function PropertyInfo(props) {
                                 {
                                     Price &&
                                     <Row>
-                                        <Col lg={4} md={4}  sm={6} xs={6}>
+                                        <Col lg={4} md={4}  sm={6} xs={6} className={'latterSpace'}>
                                             <i className="fa fa-money"></i> Price
                                         </Col>
-                                        <Col lg={8} md={8}  sm={6} xs={6}>
+                                        <Col lg={8} md={8}  sm={6} xs={6} className={'latterSpace'}>
                                             {Price}
                                         </Col>
                                     </Row>
@@ -118,10 +118,10 @@ function PropertyInfo(props) {
                                 {
                                     Seating &&
                                     <Row>
-                                        <Col lg={4} md={4}  sm={6} xs={6}>
+                                        <Col lg={4} md={4}  sm={6} xs={6} className={'latterSpace'}>
                                             <i className="fa fa-bed"></i> Seatings
                                         </Col>
-                                        <Col lg={8} md={8}  sm={6} xs={6}>
+                                        <Col lg={8} md={8}  sm={6} xs={6} className={'latterSpace'}>
                                             {Seating}
                                         </Col>
                                     </Row>
@@ -129,10 +129,10 @@ function PropertyInfo(props) {
                                 {
                                     Floor &&
                                     <Row>
-                                        <Col lg={4} md={4}  sm={6} xs={6}>
+                                        <Col lg={4} md={4}  sm={6} xs={6} className={'latterSpace'}>
                                             <i className="fa fa-home"></i> Floor
                                         </Col>
-                                        <Col lg={8} md={8}  sm={6} xs={6}>
+                                        <Col lg={8} md={8}  sm={6} xs={6} className={'latterSpace'}>
                                             {Floor}
                                         </Col>
                                     </Row>
@@ -141,10 +141,10 @@ function PropertyInfo(props) {
                                 {
                                     OverallArea &&
                                     <Row>
-                                        <Col lg={4} md={4}  sm={6} xs={6}>
+                                        <Col lg={4} md={4}  sm={6} xs={6} className={'latterSpace'}>
                                             <i className="fa fa-area-chart"></i> Overall Area
                                         </Col>
-                                        <Col lg={8} md={8}  sm={6} xs={6}>
+                                        <Col lg={8} md={8}  sm={6} xs={6} className={'latterSpace'}>
                                             {OverallArea}
                                         </Col>
                                     </Row>
@@ -164,10 +164,10 @@ function PropertyInfo(props) {
                                 {
                                     PossessionDate &&
                                     <Row>
-                                        <Col lg={4} md={4}  sm={6} xs={6}>
+                                        <Col lg={4} md={4}  sm={6} xs={6} className={'latterSpace'}>
                                             <i className="fa fa-calendar"></i>  Possession Date
                                         </Col>
-                                        <Col lg={8} md={8}  sm={6} xs={6}>
+                                        <Col lg={8} md={8}  sm={6} xs={6} className={'latterSpace'}>
                                             {PossessionDate}
                                         </Col>
                                     </Row>

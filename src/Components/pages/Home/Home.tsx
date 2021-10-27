@@ -1,22 +1,22 @@
 import React, {useEffect, useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from "jquery";
-import SearchSection from "../main-page-search-section/search-section";
-import SaerchPropery from "../search-property/search-propert";
-import LatestLaunches from "../latest-launches/latest-launches";
-import Communities from "../communities-section/communities";
-import BuySellProductSection from "../buy-sell-propery-section/buy-sell-property-section";
-import Projects from "../projects/projects";
-import SubFooter from "../sub-footer/sub-footer";
-import Footer from "../footer/footer";
-import Header from "../header/header";
+import SearchSection from "../../main-page-search-section/search-section";
+import SaerchPropery from "../../search-property/search-propert";
+import LatestLaunches from "../../latest-launches/latest-launches";
+import Communities from "../../communities-section/communities";
+import BuySellProductSection from "../../buy-sell-propery-section/buy-sell-property-section";
+import Projects from "../../projects/projects";
+import SubFooter from "../../sub-footer/sub-footer";
+import Footer from "../../footer/footer";
+import Header from "../../header/header";
 import './home.css'
-import image1 from "../../assets/images/ghansoli/ghansoli-grid1.jpg";
-import image2 from "../../assets/images/chembur-grid-2.jpg";
-import ghansolliimage1 from "../../assets/images/ghansoli/ghansoli-grid1.jpg";
-import homeimage from "../../assets/images/home-f5.jpg";
-import chamburimage from "../../assets/images/chembur-grid-2.jpg";
-import kargarImage from "../../assets/images/khargar-grid-2.jpg";
+import image1 from "../../../assets/images/ghansoli/ghansoli-grid1.jpg";
+import image2 from "../../../assets/images/chembur-grid-2.jpg";
+import ghansolliimage1 from "../../../assets/images/ghansoli/ghansoli-grid1.jpg";
+import homeimage from "../../../assets/images/home-f5.jpg";
+import chamburimage from "../../../assets/images/chembur-grid-2.jpg";
+import kargarImage from "../../../assets/images/khargar-grid-2.jpg";
 
 function Home() {
 
