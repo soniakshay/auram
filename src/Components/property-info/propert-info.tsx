@@ -46,7 +46,7 @@ function PropertyInfo(props) {
         <div className='PropertInfo'>
             {open &&    <ContactFormDialog closeDialog={()=> closeDialog()}/> }
 
-            <Container fluid>
+
                 <Row>
                     <Col lg={12} md={12} sm={12}>
                         <Row>
@@ -173,7 +173,7 @@ function PropertyInfo(props) {
                                     </Row>
                                 }
 
-                                <Row>
+                                <Row className={'buttonList'}>
                                     <Col lg={12} md={12} sm={12} xs={12}>
                                         <Button className={'btn'}>See More</Button>
                                         {!isViewMoreHide && <Button className={'btn marginLeft'} onClick={()=>{redirectDetail(SeeMoreLink)}}>View Area</Button>}
@@ -190,7 +190,6 @@ function PropertyInfo(props) {
                         </Row>
                     </Col>
                 </Row>
-            </Container>
         </div>
     )
 }

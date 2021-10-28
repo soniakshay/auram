@@ -9,6 +9,10 @@
     margin-right: 10px;
 }
 
+.PropertInfo .buttonList i {
+    margin-right: 0px;
+}
+
 .PropertInfo .left img {
     width: 100%;
 }
@@ -56,4 +60,11 @@
     display: block;
     text-decoration: none;
 
+}
+
+
+@media only screen and (max-width: 600px) {
+    .PropertInfo .btn {
+        padding: 8px 10px;
+    }
 }
