@@ -1,0 +1,18 @@
+.fullPageGallayMain .GallaryMain {
+    margin: 0px !important;
+}
+
+.fullPageGallayMain .title1 {
+    font-family: 'Fahkwang', sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    text-transform: none;
+    color: #d1a733;
+    display: block;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.fullPageGallayMain .title {
+    font-size: 35px;
+}

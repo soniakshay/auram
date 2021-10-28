@@ -140,7 +140,7 @@ function SearchPropertyDetail(props) {
                                         <div>
                                             <Form.Check type="checkbox" label=" AURUM Q ISLANDS"/>
                                             <Form.Check type="checkbox" label="AURUM Q PARĆ Q6"/>
-                                            <Form.Check type="checkbox" label="AURUM MILLENNIUM PARK Q2"/>
+                                            <Form.Check type="checkbox" label="AURUM MILLENNIUM PARK FullPageGallary"/>
                                             <Form.Check type="checkbox" label="AURUM MILLENNIUM PARK Q6"/>
                                         </div>
                                     </Accordion.Body>

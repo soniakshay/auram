@@ -173,6 +173,7 @@ function Q2(props) {
                     <Row>
                         <Col lg={12} xs={12} md={12} sm={12}>
                             <h1 className={'title'}>Gallary</h1>
+                            <a href={'/full-page-gallary?page=q5'} className={'viewAllGallaryLink'}>View More</a>
                         </Col>
                     </Row>
                     <Row className={'gallary'}>

@@ -180,6 +180,15 @@
     font-size: 18px;
 
 }
+.viewAllGallaryLink {
+    color: #9ea0a6;
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: block;
+}
+.viewAllGallaryLink:hover {
+    color: #9ea0a6;
+}
 @media only screen and (max-width: 600px) {
     .Q5Main .gallary .bottomImage {
         margin-top: 10px;

@@ -157,20 +157,20 @@ function Q6(props) {
                     {/*</Row>*/}
                     {/*<Row>*/}
                     {/*    <Col lg={12} xs={12} md={12} sm={12}>*/}
-                    {/*        <h1 className={'title'}>About Aurum Q Parć Q2</h1>*/}
+                    {/*        <h1 className={'title'}>About Aurum Q Parć FullPageGallary</h1>*/}
                     {/*    </Col>*/}
                     {/*</Row>*/}
                     {/*<Row className={'descriptionDiv'}>*/}
                     {/*    <Col lg={12} xs={12} md={12} sm={12}>*/}
 
                     {/*        <p className={'desctitle'}>Address</p>*/}
-                    {/*        <p>Aurum Q Parć Q2 Thane Belapur Road, Ghansoli, Navi Mumbai - 400710. Maharashtra. India.</p>*/}
+                    {/*        <p>Aurum Q Parć FullPageGallary Thane Belapur Road, Ghansoli, Navi Mumbai - 400710. Maharashtra. India.</p>*/}
                     {/*    </Col>*/}
                     {/*</Row>*/}
                     {/*<Row className={'descriptionDiv'}>*/}
                     {/*    <Col lg={12} xs={12} md={12} sm={12}>*/}
                     {/*        <p className={'desctitle'}>Description</p>*/}
-                    {/*        <p>Aurum Q Parć Q2, a 3 million sq ft well-planned, state-of-the-art, sustainable, functional and energy efficient IT-ITeS Special Economic Zone that has the flexibility to meet the changing needs of businesses in future. It boasts of a high quality, premium contemporary building that conveys the strength and integrity of both, the non SEZ IT spaces and our business.</p>*/}
+                    {/*        <p>Aurum Q Parć FullPageGallary, a 3 million sq ft well-planned, state-of-the-art, sustainable, functional and energy efficient IT-ITeS Special Economic Zone that has the flexibility to meet the changing needs of businesses in future. It boasts of a high quality, premium contemporary building that conveys the strength and integrity of both, the non SEZ IT spaces and our business.</p>*/}
                     {/*        <br/>*/}
                     {/*        <p>ADesigned for future growth, the non SEZ IT spaces also has options for SoftwareTechnology Park and Built to Suit Spaces. Large flexible floor plates, sustainable design and a wealth of up market amenities are only a few features that distinguish the development as Navi Mumbai's new centre for commercial growth. It provides a good ecosystem for IT-ITeS companies.</p>*/}
 

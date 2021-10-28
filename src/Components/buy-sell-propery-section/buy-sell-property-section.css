@@ -27,16 +27,16 @@
 }
 
 .BuySellProductMain  .desc {
-    color: #6f6d6d;
-    font-family: 'Source Sans Pro', sans-serif;
-        font-family: 'Fahkwang', sans-serif;
+    color: black;
+    /*font-family: 'Fahkwang', sans-serif;*/
     font-size: 15px;
     letter-spacing: 1px;
+    font-weight: 100;
 }
 .BuySellProductMain  .desctitle {
     color: black;
-    font-family: 'Source Sans Pro', sans-serif;
-        font-family: 'Fahkwang', sans-serif;
+
+        /*font-family: 'Fahkwang', sans-serif;*/
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 1px;

@@ -28,6 +28,7 @@ import Q5FloorPlan from "./Components/pages/q5-floor-plan/q5-floor-plan";
 import Q2FloorPlan from "./Components/pages/q2-floor-plan/q2-floor-plan";
 import Q6FloorPlan from "./Components/pages/q6-floor-plan/q6-floor-plan";
 import CommunityList from "./Components/pages/community-list/community-list";
+import FullPageGallary from "./Components/pages/full-page-gallary/full-page-gallary";
 
 function App() {
   return (
@@ -98,6 +99,9 @@ function App() {
                 </Route>
                 <Route exact  path="/community-list">
                   <CommunityList/>
+                </Route>
+                <Route exact  path="/full-page-gallary">
+                    <FullPageGallary/>
                 </Route>
 
 
