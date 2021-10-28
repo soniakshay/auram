@@ -6,14 +6,14 @@ import { useHistory } from "react-router-dom";
 
 function Communities(props) {
     const history = useHistory();
-    const {communitiesData, title, background} = props;
+    const {communitiesData, title, background, fluid = false} = props;
     const {heading,list} = communitiesData;
     const colSize = Math.floor(12 / list.length);
 
 
     return (
         <div className='CommunitiesMain'>
-            <Container>
+            <Container fluid={fluid}>
                 <Row>
 
 

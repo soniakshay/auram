@@ -3,3 +3,8 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+
+# exclude the whole big-data-stuff
+/src/assets
+/src/assets/*
+

@@ -27,6 +27,7 @@ import FloorPlanFullSection from "./Components/floor-plan-full/floor-plan-full";
 import Q5FloorPlan from "./Components/pages/q5-floor-plan/q5-floor-plan";
 import Q2FloorPlan from "./Components/pages/q2-floor-plan/q2-floor-plan";
 import Q6FloorPlan from "./Components/pages/q6-floor-plan/q6-floor-plan";
+import CommunityList from "./Components/pages/community-list/community-list";
 
 function App() {
   return (
@@ -94,6 +95,9 @@ function App() {
                 </Route>
                 <Route exact  path="/detail/q6-floor-plan">
                     <Q6FloorPlan/>
+                </Route>
+                <Route exact  path="/community-list">
+                  <CommunityList/>
                 </Route>
 
 

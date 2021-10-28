@@ -1,0 +1,14 @@
+.CommunityListMain .CommunitiesMain {
+    margin: 20px 0px 108px 0px !important;
+}
+.CommunityListMain .title {
+    font-family: 'Fahkwang', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: none;
+    color: #d1a733;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 40px 0px;
+}

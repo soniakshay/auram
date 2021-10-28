@@ -12,6 +12,39 @@
     letter-spacing:1px !important;
 }
 
+
+@font-face {
+    font-family: 'mr_sheffieldregular';
+    src: url('./assets/fonts/mr-sheffield-2-webfont.woff2') format('woff2'),
+    url('./assets/fonts/mr-sheffield-2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'semplicitaproregular';
+    src: url('./assets/fonts/semplicitapro.woff2') format('woff2'),
+    url('./assets/fonts/semplicitapro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'semplicitaprobold';
+    src: url('./assets/fonts/semplicitapro-bold.woff2') format('woff2'),
+    url('./assets/fonts/semplicitapro-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 @media only screen and (max-width: 600px) {
 
     .row {

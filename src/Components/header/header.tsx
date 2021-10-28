@@ -44,7 +44,7 @@ function Header() {
                    </Col>
 
                    <Col lg={6} xs={6} sm={6} className={'leftSectionHeader menuItem'}>
-                       <span>COMMUNITIES</span>
+                       <span><a href={'/community-list'}>COMMUNITIES</a></span>
                        <span><a href={'javascript:void(0)'} onClick={()=> redirectToEmail('communities@aurumproptech.com')}><i className={'fa fa-envelope mt-2 fa-20x'}/></a></span>
                        <span><a href={'javascript:void(0)'} onClick={()=> redirectToCall('+917829955550')}><i className={'fa fa-phone fa-20x mt-2 mr-4'}/></a></span>
                    </Col>
@@ -61,7 +61,7 @@ function Header() {
                     <div className={'mobileMenu'} onClick={closeMenu}>
                         <div className={'mobileMenuInner'}>
                             <ul>
-                                <li><a href='#'>COMMUNITIES</a></li>
+                                <li><a href='/community-list'>COMMUNITIES</a></li>
                                 <li><a href='#'>Call</a></li>
                                 <li><a href='#'>Mail</a></li>
                             </ul>
