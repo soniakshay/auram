@@ -5,8 +5,9 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import facebookIcon from '../../assets/images/facebook-icon.png';
 import instaIcon from '../../assets/images/instagram-icon.png';
 import linkedinIcon from '../../assets/images/linkedin-icon.png';
+import { useHistory } from "react-router-dom";
 function Footer() {
-
+    const history =  useHistory();
     const redirectLink = (link) => {
         window.open(link);
     }
@@ -21,47 +22,47 @@ function Footer() {
                 </Row>
                 <Row >
                     <div className={'menuItems'}>
-                    <Col lg={3} md={12} sm={12} className={'menuItem'}>
-                    <ScrollAnimation animateIn="fadeInUp">
-                      <h4>About Us</h4>
-                        <ul>
-                            <li><a href="#"> - Aurum PropTech</a></li>
-                            <li><a href="#"> - Aurum PropTech</a></li>
-                        </ul>
-                    </ScrollAnimation>
-                    </Col>
-                    <Col lg={3} md={12} sm={12} className={'menuItem'}>
-                        <ScrollAnimation animateIn="fadeInUp">
+                        <Col lg={3} md={12} sm={12} className={'menuItem'}>
+                            <ScrollAnimation animateIn="fadeInUp">
+                                <h4>About Us</h4>
+                                <ul>
+                                    <li><a href='javascript:void(0)' onClick={()=> window.open('https://majescoltd.in/') }> - Aurum PropTech</a></li>
+                                    <li><a href='javascript:void(0)' onClick={()=> window.open('https://www.aurumventures.in/') }> - Aurum Ventures</a></li>
+                                </ul>
+                            </ScrollAnimation>
+                        </Col>
+                        <Col lg={3} md={12} sm={12} className={'menuItem'}>
+                            <ScrollAnimation animateIn="fadeInUp">
 
-                        <h4>Latest Launch</h4>
-                        <ul>
-                            <li><a href="#"> - Aurum Qisland</a></li>
-                            <li><a href="#"> - Swiss Boulevard   </a></li>
-                            <li><a href="#"> - Paramount</a></li>
-                        </ul>
-                        </ScrollAnimation>
-                    </Col>
-                    <Col lg={3} md={12} sm={12} className={'menuItem'}>
-                        <ScrollAnimation animateIn="fadeInUp">
+                                <h4>Latest Launch</h4>
+                                <ul>
+                                    <li><a href='javascript:void(0)' onClick={()=> history.push('/detail/qisland') }> - Aurum Qisland</a></li>
+                                    <li><a href='javascript:void(0)' onClick={()=> history.push('/detail/swiss-boulevard-postal-colony') }> - Swiss Boulevard   </a></li>
+                                    <li><a href='javascript:void(0)' onClick={()=> history.push('/detail/paramount') }> - Paramount</a></li>
+                                </ul>
+                            </ScrollAnimation>
+                        </Col>
+                        <Col lg={3} md={12} sm={12} className={'menuItem'}>
+                            <ScrollAnimation animateIn="fadeInUp">
 
-                        <h4>Our Solutions</h4>
-                        <ul>
-                            <li><a href="#"> - Sell.do</a></li>
-                            <li><a href="#"> - Kylas </a></li>
-                            <li><a href="#"> - CREX </a></li>
-                        </ul>
-                        </ScrollAnimation>
-                    </Col>
-                    <Col lg={3} md={12} sm={12} className={'menuItem'}>
-                        <ScrollAnimation animateIn="fadeInUp">
+                                <h4>Our Solutions</h4>
+                                <ul>
+                                    <li><a href='javascript:void(0)' onClick={()=> window.open('https://www.sell.do/') }> - Sell.do</a></li>
+                                    <li><a href='javascript:void(0)' onClick={()=> window.open('https://kylas.io/') }> - Kylas </a></li>
+                                    <li><a href='javascript:void(0)' onClick={()=> window.open('https://www.aurumproptech.com/crex/') }> - CREX </a></li>
+                                </ul>
+                            </ScrollAnimation>
+                        </Col>
+                        <Col lg={3} md={12} sm={12} className={'menuItem'}>
+                            <ScrollAnimation animateIn="fadeInUp">
 
-                        <h4>Contact Us</h4>
-                        <span className={'addre'}>
+                                <h4>Contact Us</h4>
+                                <span className={'addre'}>
                             Aurum Q Parć , Thane Belapur Road,
 Ghansoli, Navi Mumbai, 400710
                         </span>
-                        </ScrollAnimation>
-                    </Col>
+                            </ScrollAnimation>
+                        </Col>
                     </div>
                 </Row>
                 <Row>
@@ -89,4 +90,3 @@ Ghansoli, Navi Mumbai, 400710
 }
 
 export default Footer;
-

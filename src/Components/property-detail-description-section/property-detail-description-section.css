@@ -9,7 +9,7 @@
 .PropertyDetailDescriptionSectionMain .PropertyDetailDescriptionSectionInnerMain .left  h1{
         font-family: 'Fahkwang', sans-serif;
     font-weight: 700;
-    font-size: 27px;
+    font-size: 30px;
     text-transform: none;
     color: #d1a733;
     display: block;
@@ -18,11 +18,11 @@
 }
 .PropertyDetailDescriptionSectionMain .PropertyDetailDescriptionSectionInnerMain .left  p{
         font-family: 'Fahkwang', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 1px;
-    color: #6f6d6d;
     margin:20px 0px;
     line-height: 30px;
+    color:black
 }
 .PropertyDetailDescriptionSectionMain .PropertyDetailDescriptionSectionInnerMain .left img{
     width: 80%;

@@ -12,19 +12,19 @@ import image4 from '../../../assets/images/majesco/5th-floor-Interior-Layout-1.j
 function Q5FloorPlan(props) {
     const [floorplaninfo,setfloorplaninfo] = useState([
         {
-            btntext:'1Bhk',
+            btntext:' 2nd Floor Interior Layout ',
             image:image1
         },
         {
-            btntext:'2Bhk',
+            btntext:'3rd Floor Interior Layout  ',
             image:image2
         },
         {
-            btntext:'3Bhk',
+            btntext:'4th Floor Interior Layout',
             image:image3
         },
         {
-            btntext:'2Bhk',
+            btntext:'5th Floor Interior Layout',
             image:image4
         }
     ])

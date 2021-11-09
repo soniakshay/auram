@@ -6,9 +6,45 @@
 .PropertDetailMain .PropertDetailMainInner {
     margin-top:30px;
 }
+.PropertDetailMain  .productlistmaintitle {
+    font-family: 'Fahkwang', sans-serif !important;
+    text-transform: none;
+    color: #3f4448;
+    font-weight: 400;
+    font-size: 29px;
+}
+.PropertDetailMain .prdoctListMainOptions {
+    color: black;
+    border: none;
+    background: none;
+}
+.PropertDetailMain .prdoctListMainOptions:focus {
+    color: black;
+    border: none;
+    background: none;
+}
+.PropertDetailMain .prdoctListMainOptions:focus-visible {
+    color: black;
+    border: none;
+    background: none;
+    outline: none;
+}
+.PropertDetailMain .prdoctListMainOptions:hover {
+    color: black;
+    border: none;
+    background: none;
+}
 .PropertDetailMain .accordion .accordion-header button {
     display: block;
     padding: 20px;
+}
+.PropertDetailMain .prdoctListMainOptions {
+    margin-left: 50%;
+    margin-top: 12px;
+}
+.PropertDetailMain .prdoctListMainOptionsDiv {
+    /*text-align: right;*/
+    /*margin-right: 10%;*/
 }
 .PropertDetailMain .accordion .accordion-header .title {
     font-weight: 100;

@@ -8,7 +8,7 @@ function PropertyDetailDescriptionSection(props) {
     const {banner,logo, title,desc, buttonsList} =  props.propertyDetailDescriptionSection;
     return (
         <div className='PropertyDetailDescriptionSectionMain'>
-            <div className='PropertyDetailDescriptionSectionInnerMain'>
+            <div className='    PropertyDetailDescriptionSectionInnerMain'>
                 <Row>
                     <Col lg={6} md={6} sm={12} xs={12} >
                         <Row>

@@ -30,8 +30,17 @@ function SaerchPropery() {
                             <Col lg={4} md={12} xs={12} className={'section'}>
                                 <div>
                                     <div id={'ptype'} className={'ptype'}>
-                                        <span className={'ptypetitle'}>Property Type</span>
-                                        <span className={'ptypedesc'}>Any</span>
+                                        <div className={'typeInnerDiv'}>
+                                            <div>
+                                             <span className={'ptypetitle'}>Property Type</span>
+                                             <span className={'ptypedesc'}>Any
+                                             </span>
+                                            </div>
+                                             <div className={'iconcontainer'}>
+                                                <i className={'fa fa-angle-down'}/>
+                                            </div>
+                                        </div>
+
                                     </div>
                                     <div id={'ptypeList'}>
                                          <Form.Check type="checkbox" label="Home"/>
@@ -43,8 +52,18 @@ function SaerchPropery() {
                             <Col lg={4} md={12} xs={12} className={'section'}>
                                 <div>
                                     <div id={'company'} className={'ptype'}>
-                                        <span className={'ptypetitle'}>COMMUNITY</span>
-                                        <span className={'ptypedesc'}>ANY COMMUNITIES</span>
+
+
+                                        <div className={'typeInnerDiv'}>
+                                            <div>
+                                                <span className={'ptypetitle'}>COMMUNITY</span>
+                                                <span className={'ptypedesc'}>ANY COMMUNITIES</span>
+                                            </div>
+                                            <div className={'iconcontainer'}>
+                                                <i className={'fa fa-angle-down'}/>
+                                            </div>
+                                        </div>
+
                                     </div>
                                     <div id={'companyList'}>
                                         <Form.Check type="checkbox" label="GHANSOLI SPORT CITY"/>

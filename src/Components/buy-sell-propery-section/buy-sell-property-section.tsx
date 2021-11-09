@@ -12,10 +12,9 @@ function BuySellProductSection() {
 
             <Container>
                 <Row>
-                    <Col lg={1} xs={1} sm={1}>
-                    </Col>
 
-                    <Col lg={10} xs={12} sm={12}>
+
+                    <Col lg={12} xs={12} sm={12} md={12}>
                         <Row>
                             <Col lg={3} xs={12} sm={12}>
                                 <div className={'buysellDesc'}>
@@ -61,9 +60,7 @@ partner for you.</span></Col>
 
                     </Col>
 
-                    <Col lg={1} xs={1} sm={1}>
 
-                    </Col>
                 </Row>
 
 

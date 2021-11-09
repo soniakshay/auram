@@ -34,9 +34,11 @@
 }
 .VideoPresntationSectionMain .VideoPresntationSectionMainInner .videotitle h1.yellow {
     color: #d1a733;
+    font-size: 35px;
 }
 .VideoPresntationSectionMain .VideoPresntationSectionMainInner .videotitle h1.white {
     color: white;
+    font-size: 30px;
 }
 
 @media only screen and (max-width: 600px) {

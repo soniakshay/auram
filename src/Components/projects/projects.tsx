@@ -47,10 +47,10 @@ function Projects() {
             <Container>
 
                 <Row>
-                    <Col lg={1} xs={0} sm={0}>
-                    </Col>
+                    {/*<Col lg={1} xs={0} sm={0}>*/}
+                    {/*</Col>*/}
 
-                    <Col lg={10} xs={12} sm={2}>
+                    <Col lg={12} xs={12} sm={2}>
                         <Row>
                             {
                                 sections.map((section)=>{
@@ -59,7 +59,7 @@ function Projects() {
                                             <Col lg={4} md={12} xs={12}>
                                                 <ScrollAnimation animateIn="fadeInUp">
                                                 <div className={'section'}>
-                                                    <img src={section.image}/>
+                                                    <img src={section.image} onClick={()=>{ redirect(section)}}/>
                                                     <div className={'descDiv'}>
                                                          <h2>{section.title}</h2>
                                                         <span>{section.desc}</span>
@@ -79,8 +79,8 @@ function Projects() {
                         </Row>
                     </Col>
 
-                    <Col lg={1} xs={0} sm={0}>
-                    </Col>
+                    {/*<Col lg={1} xs={0} sm={0}>*/}
+                    {/*</Col>*/}
 
                 </Row>
             </Container>

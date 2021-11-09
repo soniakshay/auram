@@ -15,7 +15,8 @@
 }
 
 .tagline span {
-    font-family: 'Playfair Display', serif;
+    /*font-family: 'Playfair Display', serif;*/
+    font-family: 'semplicitaproregular', sans-serif !important;
     font-size: 44px;
     display: block;
     text-align: center;

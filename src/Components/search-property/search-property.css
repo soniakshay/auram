@@ -9,6 +9,17 @@
     text-transform: uppercase;
 
 }
+.SearchProperyMain  .ptype  .typeInnerDiv {
+    display: flex;
+}
+.SearchProperyMain  .ptype .iconcontainer {
+    width: 28%;
+    text-align: right;
+}
+.SearchProperyMain  .ptype  .typeInnerDiv i {
+    align-items: flex-end;
+    margin-top: 22px;
+}
 
 .SearchProperyMain .ptype .ptypetitle {
     font-weight: 600;
@@ -23,7 +34,7 @@
     letter-spacing: 1px;
 }
 #ptypeList , #companyList {
-    padding:10px 20px;
+    padding:10px 12px;
     display: none;
 }
 #ptypeList .form-check , #companyList .form-check {

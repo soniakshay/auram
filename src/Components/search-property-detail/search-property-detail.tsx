@@ -200,6 +200,23 @@ function SearchPropertyDetail(props) {
 
                         </Col>
                         <Col lg={9} md={12} sm={12}>
+                            <Row>
+                                <Col lg={6} md={6} sm={6} xs={6}>
+                                    <h1 className={'productlistmaintitle'}>Exclusive Properties</h1>
+                                </Col>
+                                <Col lg={6} md={6} sm={6} xs={6}  className={'prdoctListMainOptionsDiv'}>
+                                   <select className={'prdoctListMainOptions'}>
+                                       <option>Price
+                                       </option>
+                                       <option>Beds
+
+                                       </option>
+                                       <option>
+                                       Relevance
+                                       </option>
+                                   </select>
+                                </Col>
+                            </Row>
                             {
                                 commercialPropertyList ? (
                                     <>

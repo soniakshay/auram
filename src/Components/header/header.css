@@ -12,6 +12,9 @@
     width: 310px;
 }
 
+.headerMain .communitiesLink {
+    font-weight: 600;
+}
 .leftSectionHeader {
     text-align: right;
 }
