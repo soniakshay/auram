@@ -43,6 +43,7 @@ import afterRegisterFloorPlanImage from "../../../assets/images/paramount/1bhkA.
 import afterRegisterFloorPlanImage1 from "../../../assets/images/paramount/1bhkB.jpg";
 import afterRegisterFloorPlanImage2 from "../../../assets/images/paramount/2bhkprime.jpg";
 import afterRegisterFloorPlanImage3 from "../../../assets/images/paramount/2bhkoptima.jpg";
+import Pdf2 from '../../../assets/pdf/Paramount-MahaRERA-Certificate.pdf';
 
 function Paramount(props) {
     const [florPlanList,setFloorPlanList] =  useState([
@@ -99,7 +100,7 @@ function Paramount(props) {
         buttonsList: [
             {
                 btntext:'DisCover More',
-                buttonFunction: ''
+                buttonLink:Pdf2
             }
         ]
     })

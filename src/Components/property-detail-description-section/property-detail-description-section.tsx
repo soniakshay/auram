@@ -28,9 +28,12 @@ function PropertyDetailDescriptionSection(props) {
 
 
                                                 {
-                                                    buttonsList.map(({btntext},index)=>{
+                                                    buttonsList.map(({btntext,buttonLink},index)=>{
                                                         return (
-                                                            <Button className={ index === 0 ? 'active' : ''}>{btntext}</Button>
+                                                            <Button className={ index === 0 ? 'active' : ''}  onClick={()=>
+                                                            {
+                                                                buttonLink && window.open(buttonLink);
+                                                            }} >{btntext}</Button>
                                                         )
                                                     })
 

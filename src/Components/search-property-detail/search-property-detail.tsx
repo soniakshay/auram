@@ -13,6 +13,13 @@ import image5 from '../../assets/images/qparc-search.jpg';
 import image6 from '../../assets/images/inner-grid-q6.jpg';
 import Video1 from '../../assets/video/Aurum-Qisland.mp4';
 import PosterImage from '../../assets/video/vidothumb-qisland.jpg'
+import Pdf1 from '../../assets/pdf/chembur-P51700000636.pdf';
+import Pdf2 from '../../assets/pdf/Paramount-MahaRERA-Certificate.pdf';
+import Pdf3 from '../../assets/pdf/R4-RERA-Maldives.pdf';
+import Pdf4 from '../../assets/pdf/R5-RERA-Santorini.pdf';
+
+
+
 import Footer from "../footer/footer";
 
 function SearchPropertyDetail(props) {
@@ -63,6 +70,7 @@ function SearchPropertyDetail(props) {
             Tower: '13 Floor',
             Area: 'Starting From 868 sq.ft',
             Price: 'Starting From INR 2.20 CR',
+            ViewReraLink: Pdf1,
             PossessionDate: '30 March 2022',
             SeeMoreLink: '/detail/swiss-boulevard-postal-colony',
             ViewMoreLink: '',
@@ -80,6 +88,7 @@ function SearchPropertyDetail(props) {
             Price: 'Starting From INR 2.20 CR',
             PossessionDate: '30 March 2022',
             SeeMoreLink: '/detail/paramount',
+            ViewReraLink: Pdf2,
             ViewMoreLink: '',
             ImageLink: image2,
             ContactNo: '+917829955550',
@@ -95,6 +104,7 @@ function SearchPropertyDetail(props) {
             Price: 'Starting From INR 1.10 CR',
             PossessionDate: '30 December 2024',
             SeeMoreLink: '/detail/qisland',
+            ViewReraLink: Pdf3,
             ViewMoreLink: '',
             ImageLink: image3,
             ContactNo: '+917829955550',
@@ -111,6 +121,7 @@ function SearchPropertyDetail(props) {
             Price: 'Starting From INR 1.10 CR',
             PossessionDate: '30 December 2024',
             SeeMoreLink: '/detail/qisland',
+            ViewReraLink: Pdf4,
             ViewMoreLink: '',
             isVideoLink: true,
             VideoLink: Video1,

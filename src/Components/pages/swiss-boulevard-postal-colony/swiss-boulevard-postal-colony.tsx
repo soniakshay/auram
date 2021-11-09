@@ -35,6 +35,7 @@ import features3 from "../../../assets/images/icon/stclr3.jpg";
 import features4 from "../../../assets/images/icon/stclr4.jpg";
 import features5 from "../../../assets/images/icon/stclr8.jpg";
 import features6 from "../../../assets/images/icon/stclr7.jpg";
+import Pdf1 from "../../../assets/pdf/chembur-P51700000636.pdf"
 
 
 import afterRegisterFloorPlanImage from '../../../assets/images/swiss/2bhk1.jpg';
@@ -85,11 +86,11 @@ function SwissBoulevardPostalColony(props) {
         buttonsList: [
             {
                 btntext:'DisCover More',
-                buttonFunction: ''
+                buttonLink: null
             },
             {
                 btntext:'View Rera',
-                buttonFunction: ''
+                buttonLink: Pdf1
             },
 
         ]
@@ -221,7 +222,7 @@ function SwissBoulevardPostalColony(props) {
             }
             <Header/>
             <DetailBanner banner={Banner}/>
-            <PropertyDetailDescriptionSection openContacctDialog = {setContatDiaog} propertyDetailDescriptionSection={propertyDetailDescriptionSection}/>
+            <PropertyDetailDescriptionSection openContacctDialog={setContatDiaog} propertyDetailDescriptionSection={propertyDetailDescriptionSection}/>
             <PropertySummaryInfo/>
             <VideoPresntationSection videoprasentationdata = {videoprasentationdata}/>
             <AmenitiesAndFeaturesSection amenitiesFeatures = {amenitiesFeaturesData}/>

@@ -27,14 +27,17 @@ function PropertyInfo(props) {
         Seating,
         Floor,
         OverallArea,
-        isViewMoreHide
-
+        isViewMoreHide,
+        ViewReraLink
     } = props.propertInfo;
     const closeDialog = () => {
         setOpen(false);
     }
     const redirectDetail = (link) => {
         history.push(link);
+    }
+    const redirectViewRera = (link) => {
+        window.open(link);
     }
     const redirectToCall = (contactNo) => {
         window.location.href = "tel:" + contactNo;
@@ -175,8 +178,8 @@ function PropertyInfo(props) {
 
                                 <Row className={'buttonList'}>
                                     <Col lg={12} md={12} sm={12} xs={12}>
-                                        <Button className={'btn'}>See More</Button>
-                                        {!isViewMoreHide && <Button className={'btn marginLeft'} onClick={()=>{redirectDetail(SeeMoreLink)}}>View Area</Button>}
+                                        <Button onClick={() => redirectDetail(SeeMoreLink)} className={'btn'}>See More</Button>
+                                        {!isViewMoreHide && <Button className={'btn marginLeft'} onClick={()=>{redirectViewRera(ViewReraLink)}}>View Rera</Button>}
                                         <Button className={'btn marginLeft'} onClick={()=>{redirectToCall(ContactNo)}}><i className="fa fa-phone fa-20x"></i></Button>
                                         <Button className={'btn marginLeft'}  onClick={()=>{redirectToEmail(Email)}}><i className="fa fa-envelope fa-20x"></i></Button>
                                         <Button className={'btn marginLeft'} onClick={()=> setOpen(true)}><i className="fa fa-comments-o fa-20x"></i></Button>
