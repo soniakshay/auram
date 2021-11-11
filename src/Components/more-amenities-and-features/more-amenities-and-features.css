@@ -1,0 +1,10 @@
+.MoreAmenitiesAndFeaturesMain ul li {
+    list-style:none;
+}
+.MoreAmenitiesAndFeaturesMain ul li i {
+    margin: 0px 5px;
+}
+
+.MoreAmenitiesAndFeaturesMain ul  li:hover > i {
+    visibility: hidden;
+}

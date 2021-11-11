@@ -301,7 +301,7 @@ function Qisland(props) {
                                               propertyDetailDescriptionSection={propertyDetailDescriptionSection}/>
             <PropertySummaryInfo/>
             <VideoPresntationSection videoprasentationdata={videoprasentationdata}/>
-            <AmenitiesAndFeaturesSection amenitiesFeatures={amenitiesFeaturesData}/>
+            <AmenitiesAndFeaturesSection amenitiesFeatures={amenitiesFeaturesData} moreamenitiesFeatures/>
             <FloorPlanSection florPlanList={florPlanList}/>
             <PropertyContactSection/>
             <Gallary imagelist={imageList2}/>

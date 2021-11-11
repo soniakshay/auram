@@ -1,11 +1,12 @@
 import React, {useState, useEffect, useRef, useCallback} from 'react';
 import './amenities-and-features.css'
 import {Button, Col, Container, Row} from "react-bootstrap";
+import MoreAmenitiesAndFeatures from "../more-amenities-and-features/more-amenities-and-features";
 
 
 
 function AmenitiesAndFeaturesSection(props) {
-    const {amenitiesFeatures} = props;
+    const {amenitiesFeatures, moreamenitiesFeatures = false} = props;
     const {title, amenitiesList, featuresList} = amenitiesFeatures;
     const colSize = Math.floor(12 / amenitiesList.length);
     const fcolSize = Math.floor(12 / featuresList.length);
@@ -35,6 +36,11 @@ function AmenitiesAndFeaturesSection(props) {
                     }
 
                 </Row>
+                {
+                    <>
+                        {moreamenitiesFeatures && <MoreAmenitiesAndFeatures/>}
+                    </>
+                }
                 <Row className={'featuresListMain'}>
 
                     {
