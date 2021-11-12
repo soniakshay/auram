@@ -33,7 +33,9 @@ function ShilphataCityJunction(props) {
 
 
 
-
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    },[])
 
 
     const [data1, setdata1] = useState({

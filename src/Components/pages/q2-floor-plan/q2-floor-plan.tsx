@@ -14,7 +14,9 @@ function Q2FloorPlan(props) {
             image:image1
         }
     ])
-
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    },[])
     return (
         <div className='Q5Main'>
             <Header/>

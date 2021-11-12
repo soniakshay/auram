@@ -39,18 +39,19 @@ partner for you.</span></Col>
                             <Col lg={3} xs={12} sm={12}>
                                 <div className={'box'}>
                                     <img src={icon2}/>
-                                    <h4 className={'boxTitle'}>Our Network </h4>
+                                    <h4 className={'boxTitle'}>Our Services </h4>
                                     <span className={'desc'}>
-                                        Aurum PropTech has a unique network of Grade-A properties across all communities. These handpicked residential and commercial properties have the best specifications among their peers.
+                                        Our customized services delivered through a 24 x 7 integrated contact centre; help you select the best suited Real Estate asset for your use case.
+
                                     </span>
                                 </div>
                             </Col>
                             <Col lg={3} xs={12} sm={12}>
                                 <div className={'box'}>
                                     <img src={icon3}/>
-                                    <h4 className={'boxTitle'}>Our Network </h4>
+                                    <h4 className={'boxTitle'}>Our Expertise </h4>
                                     <span className={'desc'}>
-                                        Aurum PropTech has a unique network of Grade-A properties across all communities. These handpicked residential and commercial properties have the best specifications among their peers.
+                                        Our customer centric trained real estate experts deliver you information with speed, time, precision, and finesse and ensure a customised, seamless, and pleasurable purchase experience.
                                     </span>
                                 </div>
                             </Col>

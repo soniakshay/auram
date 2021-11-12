@@ -10,6 +10,7 @@
 
 .ProjectsMain .section img {
     width: 100%;
+    cursor: pointer;
 }
 .ProjectsMain .section  .descDiv {
     width: 80%;

@@ -8,6 +8,9 @@ import FloorPlanFullSection from "../../floor-plan-full/floor-plan-full";
 import image1 from '../../../assets/images/q6/q6-typical-layout.jpg';
 
 function Q6FloorPlan(props) {
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    },[])
     const [floorplaninfo,setfloorplaninfo] = useState([
         {
             btntext:'1Bhk',

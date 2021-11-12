@@ -53,10 +53,14 @@ import afterRegisterFloorPlanImage2 from "../../../assets/images/qislands/a-2bhk
 import afterRegisterFloorPlanImage3 from "../../../assets/images/qislands/a-2bhk.jpg";
 import afterRegisterFloorPlanImage4 from "../../../assets/images/qislands/a-3-5bhk.jpg";
 import afterRegisterFloorPlanImage5 from "../../../assets/images/qislands/a-4-5bhk.jpg";
-
+import pdf1 from '../../../assets/pdf/R4-RERA-Maldives.pdf';
+import pdf2 from '../../../assets/pdf/R5-RERA-Santorini.pdf';
 
 function Qisland(props) {
     const [openContactDialog, setContatDiaog] = useState(false);
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    },[])
     const [florPlanList, setFloorPlanList] = useState([
         {
             btnTitle: '1 Bhk',
@@ -122,15 +126,17 @@ function Qisland(props) {
         buttonsList: [
             {
                 btntext: 'DisCover More',
-                buttonFunction: ''
+                buttonFunction: () => {
+                    setContatDiaog(true)
+                }
             },
             {
                 btntext: 'Maldives Rera',
-                buttonFunction: ''
+                buttonLink: pdf1
             },
             {
                 btntext: 'View Rera',
-                buttonFunction: ''
+                buttonFunction: pdf2
             },
 
         ]

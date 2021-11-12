@@ -77,6 +77,9 @@ function SwissBoulevardPostalColony(props) {
             afterRegistraionFloorPlanImage:afterRegisterFloorPlanImage4
         }
     ]);
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    },[])
 
     const [propertyDetailDescriptionSection,setpropertyDetailDescriptionSection] = useState({
         banner:DescriptionBanner,
@@ -86,7 +89,10 @@ function SwissBoulevardPostalColony(props) {
         buttonsList: [
             {
                 btntext:'DisCover More',
-                buttonLink: null
+                buttonLink: null,
+                buttonFunction: () => {
+                    setContatDiaog(true);
+                }
             },
             {
                 btntext:'View Rera',
@@ -229,9 +235,8 @@ function SwissBoulevardPostalColony(props) {
             <FloorPlanSection florPlanList={florPlanList}/>
             <Gallary imagelist={imageList2}/>
             <PropertyContactSection/>
-            <Gallary imagelist={imageList}/>
             <WalkThroughSection walkthroughInfo={walkthroughInfo}/>
-
+            <Gallary imagelist={imageList}/>
             <Footer/>
         </div>
     )

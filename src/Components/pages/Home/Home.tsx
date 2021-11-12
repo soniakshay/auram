@@ -13,6 +13,7 @@ import Header from "../../header/header";
 import './home.css'
 import image1 from "../../../assets/images/ghansoli/ghansoli-grid1.jpg";
 import image2 from "../../../assets/images/chembur-grid-2.jpg";
+import image3 from "../../../assets/images/home-f1.jpg";
 import ghansolliimage1 from "../../../assets/images/ghansoli/ghansoli-grid1.jpg";
 import homeimage from "../../../assets/images/home-f5.jpg";
 import chamburimage from "../../../assets/images/chembur-grid-2.jpg";
@@ -57,7 +58,7 @@ function Home() {
                         redirectLink:'/detail/shilphata-city-junction'
                     },
                     style:{
-                        backgroundImage: image1,
+                        backgroundImage: image3,
                         height: '500px'
 
                     }
@@ -82,6 +83,9 @@ function Home() {
 
         });
     }, []);
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    },[])
     return (
         <div className="Home">
             <SearchSection/>

@@ -5,7 +5,9 @@ import Footer from "../../footer/footer";
 import {Container, Row} from "react-bootstrap";
 
 function PrivacyPolicy(props) {
-
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    },[])
 
     return (
         <div className='privacyPlicyMain'>

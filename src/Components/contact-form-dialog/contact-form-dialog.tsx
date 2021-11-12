@@ -16,7 +16,7 @@ function ContactFormDialog(props) {
                         <div className={'formdiv'}>
                             <Row >
                             <Col lg={11} md={11} xs={11} sm={11}>
-                                <span className={'title'}>ENTER DETAILS TO
+                                <span className={'title'}>ENTER DETAILS TO <br/>
 "ACCESS" THIS "SECTION"</span>
                             </Col>
                             <Col lg={1} md={1} xs={1} sm={1}>

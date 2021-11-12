@@ -95,7 +95,9 @@ function KhargharRollingGreens(props) {
         }
     );
 
-
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    },[])
 
     const [sectiondata1, setSectionData1] = useState(
 

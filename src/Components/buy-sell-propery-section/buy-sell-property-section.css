@@ -32,6 +32,7 @@
     font-size: 15px;
     letter-spacing: 1px;
     font-weight: 100;
+    line-height: 30px;
 }
 .BuySellProductMain  .desctitle {
     color: black;
@@ -44,8 +45,9 @@
 .BuySellProductMain .box {
     border: 1px solid #9e9e9e5c;
     border-radius: 5px;
-   padding: 40px 20px;
+    padding: 40px 20px;
     text-align: center;
+    min-height: 400px ;
 }
 .BuySellProductMain .boxTitle {
     font-family: 'Source Sans Pro', sans-serif;

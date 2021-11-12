@@ -69,7 +69,7 @@ function SearchSection() {
                             <Col lg={10} md={12} xs={12}>
                                 <form onSubmit={onsubmit}>
                                     <div className={'inputFieldMain'}>
-                                        <i className={'fa fa-search fa-2x'}/>
+                                        <i className={'fa fa-search fa-2x'} onClick={onsubmit}/>
                                         <input type='text' placeholder={inputPlaceHolder} className='inputField' />
 
                                     </div>

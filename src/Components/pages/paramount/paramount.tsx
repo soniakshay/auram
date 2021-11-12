@@ -44,8 +44,10 @@ import afterRegisterFloorPlanImage1 from "../../../assets/images/paramount/1bhkB
 import afterRegisterFloorPlanImage2 from "../../../assets/images/paramount/2bhkprime.jpg";
 import afterRegisterFloorPlanImage3 from "../../../assets/images/paramount/2bhkoptima.jpg";
 import Pdf2 from '../../../assets/pdf/Paramount-MahaRERA-Certificate.pdf';
+import ContactFormDialog from "../../contact-form-dialog/contact-form-dialog";
 
 function Paramount(props) {
+    const [openContactDialog,setContatDiaog] = useState(false);
     const [florPlanList,setFloorPlanList] =  useState([
         {
             btnTitle: '1 BHK TYPE A',
@@ -53,7 +55,7 @@ function Paramount(props) {
             totalArea: null,
             carpetArea:'382.01 sqft',
             balconyArea:'42.62 sqft',
-            serviceArea:'9.04 sqft',
+            capboardArea:'9.04 sqft',
             image: floorplancreative,
             afterRegistraionFloorPlanImage:afterRegisterFloorPlanImage
         },
@@ -63,7 +65,7 @@ function Paramount(props) {
             totalArea: null,
             carpetArea:'378.02 sqft',
             balconyArea:'42.62 sqft',
-            serviceArea:'9.04 sqft',
+            capboardArea:'9.04 sqft',
             image: floorplancreative,
             afterRegistraionFloorPlanImage:afterRegisterFloorPlanImage1
 
@@ -74,8 +76,8 @@ function Paramount(props) {
             totalArea:null,
             carpetArea:'564.35 sqft',
             balconyArea:'49.94 sqft',
-            serviceArea:'2.49 sqft',
             image: floorplancreative,
+            capboardArea:'22.49 sqft',
             afterRegistraionFloorPlanImage:afterRegisterFloorPlanImage2
 
         },
@@ -85,7 +87,7 @@ function Paramount(props) {
             totalArea:null,
             carpetArea:'522.58 sqft',
             balconyArea:'49.94 sqft',
-            serviceArea:'20.66 sqft',
+            capboardArea:'20.66 sqft',
             image: floorplancreative,
             afterRegistraionFloorPlanImage:afterRegisterFloorPlanImage3
 
@@ -100,8 +102,16 @@ function Paramount(props) {
         buttonsList: [
             {
                 btntext:'DisCover More',
-                buttonLink:Pdf2
-            }
+                buttonLink: null,
+                buttonFunction: () => {
+                    setContatDiaog(true);
+                }
+            },
+            {
+                btntext:'View Rera',
+                buttonLink: Pdf2
+            },
+
         ]
     })
     const [imageList,setImageList] = useState([
@@ -142,7 +152,7 @@ function Paramount(props) {
             {
                 imageLink:walkThroughImage,
                 btnText:'OverAll',
-                videoLink: 'https://www.youtube.com/embed/shKTQFpUIoM',
+                videoLink: 'https://www.youtube.com/embed/kX4Ib7dKaWM',
             },
         ]
         // iframeLinks:[
@@ -239,12 +249,18 @@ function Paramount(props) {
 
 
     });
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    },[])
 
     return (
         <div className='ParaMountMain'>
             <Header/>
+            {
+                openContactDialog &&  <ContactFormDialog closeDialog={setContatDiaog}/>
+            }
             <DetailBanner banner={Banner}/>
-            <PropertyDetailDescriptionSection propertyDetailDescriptionSection={propertyDetailDescriptionSection}/>
+            <PropertyDetailDescriptionSection openContacctDialog={setContatDiaog} propertyDetailDescriptionSection={propertyDetailDescriptionSection}/>
             <PropertySummaryInfo/>
             <VideoPresntationSection videoprasentationdata={videoprasentationdata}/>
             <AmenitiesAndFeaturesSection amenitiesFeatures = {amenitiesFeaturesData}/>

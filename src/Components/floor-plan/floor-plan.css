@@ -15,6 +15,9 @@
     background: transparent;
 }
 
+.florPlantitle {
+    font-weight: 600 !important;
+}
 .FloorPlanSectionMain .btnList button:hover {
 
     background: #172243 !important;

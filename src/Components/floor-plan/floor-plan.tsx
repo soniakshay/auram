@@ -4,6 +4,7 @@ import {Button, Col, Container, Row} from "react-bootstrap";
 import carpetImg from '../../assets/images/icon/pt6.png';
 import balconyImg from '../../assets/images/icon/pt5.png';
 import serviceImg from '../../assets/images/icon/pt7.png';
+import totalAreaImg from '../../assets/images/icon/pt6.png';
 import floorplancreative from '../../assets/images/floorplancreative.jpeg'
 import ContactFormDialog from "../contact-form-dialog/contact-form-dialog";
 
@@ -63,10 +64,20 @@ function FloorPlanSection(props) {
                     <Col lg={1} md={1} xs={12} sm={12}></Col>
                     <Col lg={6} md={6} xs={12} sm={12}>
                         <div className={'flordesc'}>
-                            { florPlanList[florPlanInfo].title && <strong>{florPlanList[florPlanInfo].title}</strong>}
+                            { florPlanList[florPlanInfo].title && <strong className={'florPlantitle'}>{florPlanList[florPlanInfo].title}</strong>}
 
-                            { florPlanList[florPlanInfo].totalArea && <strong>Total Area: {florPlanList[florPlanInfo].totalArea}</strong> }
+                            {/*{ florPlanList[florPlanInfo].totalArea && <strong>Total Area: {florPlanList[florPlanInfo].totalArea}</strong> }*/}
                             <ul>
+                                {
+                                    florPlanList[florPlanInfo].totalArea && (
+                                        <li>
+                                            <div className={'listDiv'}><img src={totalAreaImg}/><strong>
+                                                {florPlanList[florPlanInfo].totalArea}</strong></div>
+                                        </li>
+
+                                    )
+                                }
+
                                 {
                                     florPlanList[florPlanInfo].carpetArea && (
                                         <li>
@@ -77,7 +88,7 @@ function FloorPlanSection(props) {
                                     )
                                 }
                                 {
-                                    florPlanList[florPlanInfo].balconyAre && (
+                                    florPlanList[florPlanInfo].balconyArea && (
                                         <li>
                                             <div className={'listDiv'}><img src={balconyImg}/><strong>Balcony
                                                 Area {florPlanList[florPlanInfo].balconyArea}</strong></div>
@@ -90,6 +101,16 @@ function FloorPlanSection(props) {
                                         <li>
                                             <div className={'listDiv'}><img src={serviceImg}/><strong>Service
                                                 Area {florPlanList[florPlanInfo].serviceArea}</strong></div>
+                                        </li>
+
+                                    )
+                                }
+                                {
+                                    florPlanList[florPlanInfo].capboardArea && (
+                                        <li>
+                                            <div className={'listDiv'}><img src={totalAreaImg}/><strong>
+                                                Cupboard Area
+                                                {florPlanList[florPlanInfo].capboardArea}</strong></div>
                                         </li>
 
                                     )

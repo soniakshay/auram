@@ -23,6 +23,9 @@ import Pdf4 from '../../assets/pdf/R5-RERA-Santorini.pdf';
 import Footer from "../footer/footer";
 
 function SearchPropertyDetail(props) {
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    },[])
     const {commercialPropertyList} = props;
     const [commercialPropertLists, setPcommercialPropertLists] = useState([
         {

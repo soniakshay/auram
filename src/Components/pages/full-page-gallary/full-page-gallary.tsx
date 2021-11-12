@@ -129,7 +129,10 @@ function FullPageGallary(props) {
                 responsiveCol: 12
             }
         ]
-    })
+    });
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    },[])
     const [gallaryDetail,setGallaryDetail] = useState(page === 'q2' ? q2GallaryDetail : q5GallaryDetail);
     return (
         <>

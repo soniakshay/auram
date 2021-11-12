@@ -41,11 +41,15 @@ import commingSoonImage from '../../../assets/images/commingsoon-q6.jpg';
 import ContactFormDialog from "../../contact-form-dialog/contact-form-dialog";
 
 function Q6(props) {
+
     const history =  useHistory()
     const [open,setOpen]=useState(false);
     const redirectLink = (link) => {
         history.push(link)
     }
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    },[])
 
     const redirectFloorPlan = (link) => {
         const regitrationFlag = localStorage.getItem('registration');

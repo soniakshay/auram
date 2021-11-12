@@ -3,11 +3,17 @@
     background: white;
     box-shadow: 0 10px 20px 0 rgb(0 0 0 / 5%);
     transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
-    position: -webkit-sticky;
-    position: sticky;
     top:0px;
+    position: fixed;
     z-index: 99999;
+    width: 100%;
 }
+
+.Home .headerMain {
+    position: static;
+    position: -webkit-sticky;
+}
+
 .headerLogo {
     width: 310px;
 }

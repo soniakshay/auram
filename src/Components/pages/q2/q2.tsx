@@ -52,6 +52,9 @@ function Q2(props) {
             setOpen(true);
         }
     }
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    },[])
     const onsubmit = () => {
         localStorage.setItem('registration',true);
         window.location.reload();

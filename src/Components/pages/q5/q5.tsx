@@ -131,7 +131,10 @@ function Q5(props) {
             title:'15 Minutes',
             subtitle:'to Industrial Area'
         },
-    ])
+    ]);
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    },[])
     return (
         <>
             {open && <ContactFormDialog closeDialog={setOpen} onsubmitevent={onsubmit}/>}
