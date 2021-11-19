@@ -6,7 +6,7 @@ import {Col, Container, Row} from "react-bootstrap";
 import Communities from "../../communities-section/communities";
 import image1 from "../../../assets/images/ghansoli/ghansoli-grid1.jpg";
 import image2 from "../../../assets/images/chembur-grid-2.jpg";
-import image3 from "../../../assets/images/home-f1.jpg"
+import image3 from "../../../assets/images/home-f5.jpg";
 import kargarImage from "../../../assets/images/khargar-grid-2.jpg";
 
 function CommunityList(props) {

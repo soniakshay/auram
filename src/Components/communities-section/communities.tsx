@@ -6,8 +6,9 @@ import { useHistory } from "react-router-dom";
 
 function Communities(props) {
     const history = useHistory();
-    const {communitiesData, title, background, fluid = false} = props;
+    const {communitiesData, title, background, fluid = false,fixColumn = false} = props;
     const {heading,list} = communitiesData;
+    const extraColumnLength = (4  - list.length);
     const colSize = Math.floor(12 / list.length);
 
 
@@ -27,10 +28,11 @@ function Communities(props) {
 
                         )}
                         <Row className={'imageContainer'}>
+                            <>
                             {
                                 list.map(({style,data}) => {
                                     return (<>
-                                            <Col lg={colSize} xs={12} sm={12} md={colSize}>
+                                            <Col lg={fixColumn ? 3 : colSize } xs={12} sm={12} md={colSize}>
                                                 <div className={'imageHover'} style={{height: style.height}}>
                                                     <img src={style.backgroundImage}/>
                                                     <div className='imageOverlay' style={{height:style.height}}>
@@ -44,7 +46,7 @@ function Communities(props) {
                                     )
                                 })
                             }
-
+                            </>
 
                         </Row>
                     </Col>

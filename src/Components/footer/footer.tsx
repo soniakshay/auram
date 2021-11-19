@@ -71,8 +71,8 @@ Ghansoli, Navi Mumbai, 400710
                               <span className={'yellow'}>Copyright © 2021 Aurum Proptech</span>
                              <span> | All Rights Reserved | </span>
                              <a href={'/privacy-policy'}  className={'yellow'}>Privacy Ploicy</a>
-                               <span> | </span>
-                             <a href={'/terms-of-use'}  className={'yellow'}>Terms Of Use</a>
+                            <br/>
+                              <span className={'yellow'}>Powered By : Channel Partner, Argentum Ventures LLP | RERA No: A51700031739 |</span>
                         </span>
                         <span className={'mediaIcon'}>
                             <ul>

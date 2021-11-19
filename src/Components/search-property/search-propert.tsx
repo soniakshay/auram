@@ -23,8 +23,8 @@ function SaerchPropery() {
         <div className='SearchProperyMain'>
             <Container>
                 <Row>
-                    {/*<Col lg={1} md={0} xs={0}></Col>*/}
-                    <Col lg={12} md={12} sm={12} xs={12}>
+                    <Col lg={1} md={0} xs={0}></Col>
+                    <Col lg={10} md={10} sm={12} xs={12}>
 
                         <Row>
                             <Col lg={4} md={12} xs={12} className={'section'}>
@@ -83,7 +83,7 @@ function SaerchPropery() {
                         </Row>
 
                     </Col>
-                    {/*<Col lg={1} md={0} xs={0}></Col>*/}
+                    <Col lg={1} md={0} xs={0}></Col>
                 </Row>
             </Container>
         </div>

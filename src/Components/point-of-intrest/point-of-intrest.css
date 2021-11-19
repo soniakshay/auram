@@ -3,7 +3,7 @@
 }
 
 .pointIntrestMain  .pointIntrestList .index span{
-        font-family: 'Fahkwang', sans-serif;
+    font-family: 'semplicitaprobold', sans-serif;
     font-weight: 500;
     /*font-size: 70px;*/
     text-transform: none;
@@ -52,7 +52,7 @@
 .pointIntrestMain  .pointIntrestList .desctitle {
         font-family: 'Fahkwang', sans-serif;
     font-size: 20px;
-    color: #6f6d6d;
+    color: black;
     font-weight: 400;
     text-transform: none;
     display: block;

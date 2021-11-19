@@ -43,12 +43,26 @@ function GhansoliSportsCity(props) {
             list: [
                 {
                     data: {
-                        title: 'Nearby Areas or Neighbourhoods',
+                        title: 'Ghansoli Sport City',
                         redirectLink:'/detail/ghansoli-sports-city'
                     },
                     style: {
                         backgroundImage: ghansolliimage1,
                         height: '300px',
+
+                    }
+
+
+                },
+
+                {
+                    data: {
+                        title: 'Shilphata City Junction ',
+                        redirectLink:'/detail/shilphata-city-junction'
+                    },
+                    style: {
+                        backgroundImage: homeimage,
+                        height: '300px'
 
                     }
 
@@ -61,20 +75,8 @@ function GhansoliSportsCity(props) {
                     },
 
                     style: {
-                        backgroundImage: homeimage,
-                        height: '300px'
-
-                    }
-
-
-                },
-                {
-                    data: {
-                        title: 'Shilphata City Junction ',
-                        redirectLink:'/detail/shilphata-city-junction'
-                    },
-                    style: {
                         backgroundImage: chamburimage,
+
                         height: '300px'
 
                     }
@@ -83,7 +85,7 @@ function GhansoliSportsCity(props) {
                 },
                 {
                     data: {
-                        title: 'Kharghar Rolling',
+                        title: 'Kharghar Rolling Greens',
                         redirectLink:'/detail/kharghar-rolling-greens'
                     },
                     style: {

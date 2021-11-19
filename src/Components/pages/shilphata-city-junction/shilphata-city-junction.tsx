@@ -14,7 +14,7 @@ import ghansolliimage1 from '../../../assets/images/ghansoli/ghansoli-grid1.jpg'
 import homeimage from '../../../assets/images/home-f5.jpg';
 import chamburimage from '../../../assets/images/chembur-grid-2.jpg';
 import kargarImage from '../../../assets/images/khargar-grid-2.jpg';
-import gridimage1 from '../../../assets/images/qisland-grid.jpg';
+import gridimage1 from '../../../assets/images/paramount-grid-3.png';
 import gridimage2 from '../../../assets/images/QPark.png';
 import gridimage3 from '../../../assets/images/Majesco.png';
 import gridimage4 from '../../../assets/images/comming-soon.jpg';
@@ -122,12 +122,26 @@ function ShilphataCityJunction(props) {
             list: [
                 {
                     data: {
-                        title: 'Nearby Areas or Neighbourhoods',
+                        title: 'Ghansoli Sport City',
                         redirectLink:'/detail/ghansoli-sports-city'
                     },
                     style: {
                         backgroundImage: ghansolliimage1,
                         height: '300px',
+
+                    }
+
+
+                },
+
+                {
+                    data: {
+                        title: 'Shilphata City Junction ',
+                        redirectLink:'/detail/shilphata-city-junction'
+                    },
+                    style: {
+                        backgroundImage: homeimage,
+                        height: '300px'
 
                     }
 
@@ -140,20 +154,8 @@ function ShilphataCityJunction(props) {
                     },
 
                     style: {
-                        backgroundImage: homeimage,
-                        height: '300px'
-
-                    }
-
-
-                },
-                {
-                    data: {
-                        title: 'Shilphata City Junction ',
-                        redirectLink:'/detail/shilphata-city-junction'
-                    },
-                    style: {
                         backgroundImage: chamburimage,
+
                         height: '300px'
 
                     }
@@ -162,7 +164,7 @@ function ShilphataCityJunction(props) {
                 },
                 {
                     data: {
-                        title: 'Kharghar Rolling',
+                        title: 'Kharghar Rolling Greens',
                         redirectLink:'/detail/kharghar-rolling-greens'
                     },
                     style: {
@@ -180,6 +182,7 @@ function ShilphataCityJunction(props) {
 
 
 
+
     const [sectiondata1, setSectionData1] = useState(
 
         {
@@ -187,56 +190,17 @@ function ShilphataCityJunction(props) {
             list: [
                 {
                     data: {
-                        title: 'Aurum Q Islands Maldives   Aurum Q Islands Santorini ',
-                        redirectLink:'/detail/qisland'
+                        title: 'Paramount',
+                        redirectLink:'/detail/paramount'
                     },
                     style: {
                         backgroundImage: gridimage1,
-                        height: '300px',
+                        height: '400px',
                     }
 
 
-                },
-                {
-                    data: {
-                        title: 'Aurum Q Park Q6',
-                        redirectLink:'/detail/q6'
-                    },
-
-                    style: {
-                        backgroundImage: gridimage2,
-                        height: '300px'
-                    }
-
-
-                },
-                {
-                    data: {
-                        title: 'Aurum MBP Q2 ',
-                        redirectLink:'/detail/q2'
-                    },
-                    style: {
-                        backgroundImage: gridimage3,
-                        height: '300px'
-
-                    }
-
-
-                },
-                {
-                    data: {
-                        title: 'Aurum MBP Q6',
-                        redirectLink:'/detail/q6'
-                    },
-                    style: {
-                        backgroundImage: gridimage4,
-                        height: '300px'
-
-                    }
-
-
-                },
-            ],
+                }
+                ],
         }
     );
 
@@ -248,7 +212,7 @@ function ShilphataCityJunction(props) {
             <CommunitiesDescription communitiesDescriptionData={data1}/>
             <CommunitiesDescription communitiesDescriptionData={data2}/>
             <CommunitiesDescription communitiesDescriptionData={data3}/>
-            <Communities communitiesData={sectiondata1} title/>
+            <Communities communitiesData={sectiondata1} title fixColumn/>
             <Communities communitiesData={sectiondata} title/>
             <Footer/>
         </div>
