@@ -44,6 +44,7 @@ import afterRegisterFloorPlanImage3 from '../../../assets/images/swiss/3bhk1.jpg
 import afterRegisterFloorPlanImage4 from '../../../assets/images/swiss/3bhk2.jpg';
 
 import ContactFormDialog from "../../contact-form-dialog/contact-form-dialog";
+import EnquireForm from "../../enquire-form/enquire-form";
 
 function SwissBoulevardPostalColony(props) {
     const [openContactDialog,setContatDiaog] = useState(false);
@@ -65,7 +66,7 @@ function SwissBoulevardPostalColony(props) {
         {
             btnTitle: '3 Bhk',
             title:'3-Bedroom Apartment',
-            totalArea:'Total Area 733.02 sqft',
+            totalArea:'Total Area 868.33 sqft',
             image: floorplancreative,
             afterRegistraionFloorPlanImage:afterRegisterFloorPlanImage3
         },
@@ -221,23 +222,37 @@ function SwissBoulevardPostalColony(props) {
 
     });
 
+
+    const [propertySummaryInfo,setpropertySummaryInfo] = useState({
+        StartingPrice: 'INR 2.20 cr',
+        StartingArea:'868 sq.ft',
+        BookingAmount:'INR 1 Lac'
+    });
+    const onSubmit = () => {
+        localStorage.setItem('registration',true);
+        setContatDiaog(false);
+    }
+    useEffect(()=>{
+        setContatDiaog(true);
+    },[])
     return (
         <div className='SwissBoulevardPostalColonyMain'>
             {
-                openContactDialog &&  <ContactFormDialog closeDialog={setContatDiaog}/>
+                openContactDialog &&  <ContactFormDialog closeDialog={setContatDiaog} onsubmitevent={onSubmit}/>
             }
             <Header/>
             <DetailBanner banner={Banner}/>
             <PropertyDetailDescriptionSection openContacctDialog={setContatDiaog} propertyDetailDescriptionSection={propertyDetailDescriptionSection}/>
-            <PropertySummaryInfo/>
+            <PropertySummaryInfo propertySummaryInfo={propertySummaryInfo}/>
             <VideoPresntationSection videoprasentationdata = {videoprasentationdata}/>
             <AmenitiesAndFeaturesSection amenitiesFeatures = {amenitiesFeaturesData}/>
             <FloorPlanSection florPlanList={florPlanList}/>
-            <Gallary imagelist={imageList2}/>
             <PropertyContactSection/>
+            <Gallary imagelist={imageList2} title/>
             <WalkThroughSection walkthroughInfo={walkthroughInfo}/>
             <Gallary imagelist={imageList}/>
             <Footer/>
+            <EnquireForm/>
         </div>
     )
 }

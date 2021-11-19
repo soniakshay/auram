@@ -45,6 +45,7 @@ import afterRegisterFloorPlanImage2 from "../../../assets/images/paramount/2bhkp
 import afterRegisterFloorPlanImage3 from "../../../assets/images/paramount/2bhkoptima.jpg";
 import Pdf2 from '../../../assets/pdf/Paramount-MahaRERA-Certificate.pdf';
 import ContactFormDialog from "../../contact-form-dialog/contact-form-dialog";
+import EnquireForm from "../../enquire-form/enquire-form";
 
 function Paramount(props) {
     const [openContactDialog,setContatDiaog] = useState(false);
@@ -249,28 +250,42 @@ function Paramount(props) {
 
 
     });
+    const [propertySummaryInfo,setpropertySummaryInfo] = useState({
+        StartingPrice: 'INR 41 L',
+        StartingArea:'385 sq.ft',
+        BookingAmount:'INR 51K'
+    });
+
     useEffect(()=>{
         window.scrollTo(0, 0)
+    },[])
+    const onSubmit = () => {
+        localStorage.setItem('registration',true);
+        setContatDiaog(false);
+    }
+    useEffect(()=>{
+        setContatDiaog(true);
     },[])
 
     return (
         <div className='ParaMountMain'>
             <Header/>
             {
-                openContactDialog &&  <ContactFormDialog closeDialog={setContatDiaog}/>
+                openContactDialog &&  <ContactFormDialog closeDialog={setContatDiaog} onsubmitevent={onSubmit}/>
             }
             <DetailBanner banner={Banner}/>
             <PropertyDetailDescriptionSection openContacctDialog={setContatDiaog} propertyDetailDescriptionSection={propertyDetailDescriptionSection}/>
-            <PropertySummaryInfo/>
+            <PropertySummaryInfo propertySummaryInfo={propertySummaryInfo}/>
             <VideoPresntationSection videoprasentationdata={videoprasentationdata}/>
             <AmenitiesAndFeaturesSection amenitiesFeatures = {amenitiesFeaturesData}/>
             <FloorPlanSection florPlanList={florPlanList}/>
-            <Gallary imagelist={imageList2} title/>
             <PropertyContactSection/>
+            <Gallary imagelist={imageList2} title/>
             <WalkThroughSection walkthroughInfo={walkthroughInfo}/>
             <Gallary imagelist={imageList}/>
 
             <Footer/>
+            <EnquireForm/>
         </div>
     )
 }

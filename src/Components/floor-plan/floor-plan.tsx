@@ -4,7 +4,8 @@ import {Button, Col, Container, Row} from "react-bootstrap";
 import carpetImg from '../../assets/images/icon/pt6.png';
 import balconyImg from '../../assets/images/icon/pt5.png';
 import serviceImg from '../../assets/images/icon/pt7.png';
-import totalAreaImg from '../../assets/images/icon/pt6.png';
+import totalAreaImg from '../../assets/images/icon/totalArea.png';
+
 import floorplancreative from '../../assets/images/floorplancreative.jpeg'
 import ContactFormDialog from "../contact-form-dialog/contact-form-dialog";
 

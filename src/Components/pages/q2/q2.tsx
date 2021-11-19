@@ -4,7 +4,7 @@ import Header from "../../header/header";
 import Footer from "../../footer/footer";
 import {Button, Col, Container, Row} from "react-bootstrap";
 import videoLink from '../../../assets/video/aurumq2.mp4';
-import videoPoster from '../../../assets/video/q5-flash-video.png';
+import videoPoster from '../../../assets/images/qparcvideo.png';
 import image1 from '../../../assets/images/qpark/qp1.jpg';
 import image2 from '../../../assets/images/qpark/qp2.jpg';
 import image3 from '../../../assets/images/qpark/qp3.jpg';

@@ -7,6 +7,7 @@ import icon3 from '../../assets/images/icon/pt3.png';
 import icon4 from '../../assets/images/icon/pt4.png';
 
 function PropertySummaryInfo(props) {
+    const {StartingPrice,StartingArea,BookingAmount} =  props.propertySummaryInfo;
     return (
         <div className='PropertySummaryInfoMain'>
            <Container fluid>
@@ -17,7 +18,7 @@ function PropertySummaryInfo(props) {
                             <img src={icon1}/>
                         </div>
                         <div className='info'>
-                            <p> <b>INR 1.10 cr</b> <br/> Starting Price</p>
+                            <p> <b>{StartingPrice}</b> <br/> Starting Price</p>
                         </div>
                     </div>
                    </Col>
@@ -28,7 +29,7 @@ function PropertySummaryInfo(props) {
                                <img src={icon2}/>
                            </div>
                            <div className='info'>
-                               <p> <b>505 sq.ft
+                               <p> <b>{StartingArea}
                                    </b> <br/> Starting Area</p>
                            </div>
                        </div>
@@ -40,7 +41,7 @@ function PropertySummaryInfo(props) {
                                <img src={icon3}/>
                            </div>
                            <div className='info'>
-                               <p> <b>INR 1 Lac</b> <br/> Booking Amount</p>
+                               <p> <b>{BookingAmount}</b> <br/> Booking Amount</p>
                            </div>
                        </div>
                    </Col>

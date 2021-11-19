@@ -55,6 +55,7 @@ import afterRegisterFloorPlanImage4 from "../../../assets/images/qislands/a-3-5b
 import afterRegisterFloorPlanImage5 from "../../../assets/images/qislands/a-4-5bhk.jpg";
 import pdf1 from '../../../assets/pdf/R4-RERA-Maldives.pdf';
 import pdf2 from '../../../assets/pdf/R5-RERA-Santorini.pdf';
+import EnquireForm from "../../enquire-form/enquire-form";
 
 function Qisland(props) {
     const [openContactDialog, setContatDiaog] = useState(false);
@@ -65,7 +66,7 @@ function Qisland(props) {
         {
             btnTitle: '1 Bhk',
             title: '1 Bedroom Apartment',
-            totalArea: '505 sqft',
+            totalArea: 'Total Area 505 sqft',
             carpetArea: '435 sqft',
             balconyArea: '53 sqft',
             serviceArea: '17 sqft',
@@ -75,7 +76,7 @@ function Qisland(props) {
         {
             btnTitle: '2 Bhk s',
             title: '2 S-Bedroom Apartment',
-            totalArea: '715 sqft',
+            totalArea: 'Total Area 715 sqft',
             carpetArea: '643 sqft',
             balconyArea: '52 sqft',
             serviceArea: '20 sqft',
@@ -86,7 +87,7 @@ function Qisland(props) {
         {
             btnTitle: '2 Bhk L',
             title: '2 L-Bedroom Apartment',
-            totalArea: '725 sqft',
+            totalArea: 'Total Area 725 sqft',
             carpetArea: '643 sqft',
             balconyArea: '62 sqft',
             serviceArea: '20 sqft',
@@ -97,7 +98,7 @@ function Qisland(props) {
         {
             btnTitle: '3.5 Bhk',
             title: '3.5 Bedroom Apartment',
-            totalArea: '1259 sqft',
+            totalArea: 'Total Area 1259 sqft',
             carpetArea: '1112 sqft',
             balconyArea: '111 sqft',
             serviceArea: '36 sqft',
@@ -108,7 +109,7 @@ function Qisland(props) {
         {
             btnTitle: '4.5 Bhk',
             title: '4.5 Bedroom Apartment',
-            totalArea: '1492 sqft',
+            totalArea: 'Total Area 1492 sqft',
             carpetArea: '1322 sqft',
             balconyArea: '130 sqft',
             serviceArea: '40 sqft',
@@ -295,26 +296,40 @@ function Qisland(props) {
 
 
     });
+    const [propertySummaryInfo,setpropertySummaryInfo] = useState({
+        StartingPrice: 'INR 1.10 cr',
+        StartingArea:'505 sq.ft',
+        BookingAmount:'INR 1 Lac'
+    });
+    const onSubmit = () => {
+        localStorage.setItem('registration',true);
+        setContatDiaog(false);
+    }
+    useEffect(()=>{
+        setContatDiaog(true);
+    },[])
+
 
     return (
         <div className='SwissBoulevardPostalColonyMain'>
             {
-                openContactDialog && <ContactFormDialog closeDialog={setContatDiaog}/>
+                openContactDialog && <ContactFormDialog closeDialog={setContatDiaog} onsubmitevent={onSubmit}/>
             }
             <Header/>
             <DetailBanner banner={Banner} logo={BannerLogo}/>
             <PropertyDetailDescriptionSection openContacctDialog={setContatDiaog}
                                               propertyDetailDescriptionSection={propertyDetailDescriptionSection}/>
-            <PropertySummaryInfo/>
+            <PropertySummaryInfo propertySummaryInfo={propertySummaryInfo}/>
             <VideoPresntationSection videoprasentationdata={videoprasentationdata}/>
             <AmenitiesAndFeaturesSection amenitiesFeatures={amenitiesFeaturesData} moreamenitiesFeatures/>
             <FloorPlanSection florPlanList={florPlanList}/>
             <PropertyContactSection/>
-            <Gallary imagelist={imageList2}/>
+            <Gallary imagelist={imageList2} title/>
             <WalkThroughSection walkthroughInfo={walkthroughInfo}/>
             <Gallary imagelist={imageList}/>
 
             <Footer/>
+            <EnquireForm/>
         </div>
     )
 }

@@ -6,6 +6,7 @@ import facebookIcon from '../../assets/images/facebook-icon.png';
 import instaIcon from '../../assets/images/instagram-icon.png';
 import linkedinIcon from '../../assets/images/linkedin-icon.png';
 import { useHistory } from "react-router-dom";
+import EnquireForm from "../enquire-form/enquire-form";
 function Footer() {
     const history =  useHistory();
     const redirectLink = (link) => {
@@ -13,7 +14,8 @@ function Footer() {
     }
 
     return (
-        <div className='FooterMain'>
+
+             <div className='FooterMain'>
             <Container>
                 <Row>
                     <Col lg={12} md={12} sm={12}>

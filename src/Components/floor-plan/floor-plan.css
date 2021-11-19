@@ -2,8 +2,9 @@
 
 }
 .FloorPlanSectionMain .btnList button {
-    color: #6f6d6d !important;
+    color: black;
     font-size: 12px;
+    font-weight: bold;
     /*border: 1px solid #172243;*/
     border: none;
     /*background: #172243 !important;*/
